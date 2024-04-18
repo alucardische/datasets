@@ -1,0 +1,4278 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_afa1a0bfe84a5f5249747afb7dc5ec1b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_afa1a0bfe84a5f5249747afb7dc5ec1b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_afa1a0bfe84a5f5249747afb7dc5ec1b = L.map(
+                "map_afa1a0bfe84a5f5249747afb7dc5ec1b",
+                {
+                    center: [51.5074, -0.1278],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_02f67fc4f7a87f3af8203e0c27d6d22f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_02f67fc4f7a87f3af8203e0c27d6d22f.addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+            var marker_319f7537c1cef08e9b9f40012d7d52a5 = L.marker(
+                [51.581085, -0.189186],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_9b21b12b6360a514e8351b64942a90c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6f23d3184d4abe8b11703520e8adc04 = $(`<div id="html_d6f23d3184d4abe8b11703520e8adc04" style="width: 100.0%; height: 100.0%;">The Henrietta Barnett School, Oxbridge pct: 28.0, Russel pct: 93.0</div>`)[0];
+                popup_9b21b12b6360a514e8351b64942a90c2.setContent(html_d6f23d3184d4abe8b11703520e8adc04);
+            
+        
+
+        marker_319f7537c1cef08e9b9f40012d7d52a5.bindPopup(popup_9b21b12b6360a514e8351b64942a90c2)
+        ;
+
+        
+    
+    
+            var marker_b8dc6b70d00a8ac3ae9e6c4bd593d34c = L.marker(
+                [51.496102, -0.111965],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_54c3b23e76451dc78720f9564c1c31a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47bd739185bd05d810752faf732b2946 = $(`<div id="html_47bd739185bd05d810752faf732b2946" style="width: 100.0%; height: 100.0%;">King's College London Maths School, Oxbridge pct: 25.0, Russel pct: 91.0</div>`)[0];
+                popup_54c3b23e76451dc78720f9564c1c31a2.setContent(html_47bd739185bd05d810752faf732b2946);
+            
+        
+
+        marker_b8dc6b70d00a8ac3ae9e6c4bd593d34c.bindPopup(popup_54c3b23e76451dc78720f9564c1c31a2)
+        ;
+
+        
+    
+    
+            var marker_786d3e0ed0254f1369b606e809f0ca56 = L.marker(
+                [51.520969, 0.046111],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_9fb21d4615ac4fbd9479cd2cf0ba7b8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a43e1d23f9e6b1319653ee4354123b2d = $(`<div id="html_a43e1d23f9e6b1319653ee4354123b2d" style="width: 100.0%; height: 100.0%;">Brampton Manor Academy, Oxbridge pct: 18.0, Russel pct: 89.0</div>`)[0];
+                popup_9fb21d4615ac4fbd9479cd2cf0ba7b8f.setContent(html_a43e1d23f9e6b1319653ee4354123b2d);
+            
+        
+
+        marker_786d3e0ed0254f1369b606e809f0ca56.bindPopup(popup_9fb21d4615ac4fbd9479cd2cf0ba7b8f)
+        ;
+
+        
+    
+    
+            var marker_d4f375f044f30659a86f805732163e95 = L.marker(
+                [51.655857, -0.213358],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_7372958e2d4d35001e9e9cf29b97ee2d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a1eb76b011eba52998976f751c9912a = $(`<div id="html_8a1eb76b011eba52998976f751c9912a" style="width: 100.0%; height: 100.0%;">Queen Elizabeth's School, Barnet, Oxbridge pct: 24.0, Russel pct: 88.0</div>`)[0];
+                popup_7372958e2d4d35001e9e9cf29b97ee2d.setContent(html_8a1eb76b011eba52998976f751c9912a);
+            
+        
+
+        marker_d4f375f044f30659a86f805732163e95.bindPopup(popup_7372958e2d4d35001e9e9cf29b97ee2d)
+        ;
+
+        
+    
+    
+            var marker_4760a63fc9c10c0eccb5a5b5c752c94a = L.marker(
+                [51.448379, -0.954411],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_9c0e2c9def115cdbbd1bdec6723f1cea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f655f799f59ab6e50cb3b378ca35738 = $(`<div id="html_2f655f799f59ab6e50cb3b378ca35738" style="width: 100.0%; height: 100.0%;">Reading School, Oxbridge pct: 13.0, Russel pct: 83.0</div>`)[0];
+                popup_9c0e2c9def115cdbbd1bdec6723f1cea.setContent(html_2f655f799f59ab6e50cb3b378ca35738);
+            
+        
+
+        marker_4760a63fc9c10c0eccb5a5b5c752c94a.bindPopup(popup_9c0e2c9def115cdbbd1bdec6723f1cea)
+        ;
+
+        
+    
+    
+            var marker_3d0e316887ee1e2f31045f0fa0a06851 = L.marker(
+                [51.61441, -0.180786],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_43661ed22b5386fbd023e963a1409ab9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9cb72e7a4eea17e6d6161dfa98d0fb4 = $(`<div id="html_d9cb72e7a4eea17e6d6161dfa98d0fb4" style="width: 100.0%; height: 100.0%;">St Michael's Catholic Grammar School, Oxbridge pct: 6.0, Russel pct: 82.0</div>`)[0];
+                popup_43661ed22b5386fbd023e963a1409ab9.setContent(html_d9cb72e7a4eea17e6d6161dfa98d0fb4);
+            
+        
+
+        marker_3d0e316887ee1e2f31045f0fa0a06851.bindPopup(popup_43661ed22b5386fbd023e963a1409ab9)
+        ;
+
+        
+    
+    
+            var marker_4ce2b00b24a06ebc0c5d060ca5a8eb43 = L.marker(
+                [51.906713, -2.11627],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_1078efc70b98e129a2cfb51d971c2e69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6d7d0c7b1d7ef513349ac1858a4f850 = $(`<div id="html_e6d7d0c7b1d7ef513349ac1858a4f850" style="width: 100.0%; height: 100.0%;">Pate's Grammar School, Oxbridge pct: 16.0, Russel pct: 82.0</div>`)[0];
+                popup_1078efc70b98e129a2cfb51d971c2e69.setContent(html_e6d7d0c7b1d7ef513349ac1858a4f850);
+            
+        
+
+        marker_4ce2b00b24a06ebc0c5d060ca5a8eb43.bindPopup(popup_1078efc70b98e129a2cfb51d971c2e69)
+        ;
+
+        
+    
+    
+            var marker_db3b50d02bf6d723ee3bbc0cc275542c = L.marker(
+                [51.358845, -0.128086],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_5c682bf71c1a875a5971db2439ec8f1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0850acfcfada7e364086570664cb167e = $(`<div id="html_0850acfcfada7e364086570664cb167e" style="width: 100.0%; height: 100.0%;">Wilson's School, Oxbridge pct: 14.0, Russel pct: 81.0</div>`)[0];
+                popup_5c682bf71c1a875a5971db2439ec8f1e.setContent(html_0850acfcfada7e364086570664cb167e);
+            
+        
+
+        marker_db3b50d02bf6d723ee3bbc0cc275542c.bindPopup(popup_5c682bf71c1a875a5971db2439ec8f1e)
+        ;
+
+        
+    
+    
+            var marker_6661bc89419ecf997320778ae360554b = L.marker(
+                [51.53854, -0.001757],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_9dcc9cc06843f95aff7f8b829e5a9612 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23af88bd103d508a61218e38e5408160 = $(`<div id="html_23af88bd103d508a61218e38e5408160" style="width: 100.0%; height: 100.0%;">London Academy of Excellence, Oxbridge pct: 16.0, Russel pct: 81.0</div>`)[0];
+                popup_9dcc9cc06843f95aff7f8b829e5a9612.setContent(html_23af88bd103d508a61218e38e5408160);
+            
+        
+
+        marker_6661bc89419ecf997320778ae360554b.bindPopup(popup_9dcc9cc06843f95aff7f8b829e5a9612)
+        ;
+
+        
+    
+    
+            var marker_6fb208dc955062210026b8e1da82b88b = L.marker(
+                [51.425571, -0.302934],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_7caa4dcac84300fb4b1df0e56de3aec8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2636cdfa74945acd50816e487269242e = $(`<div id="html_2636cdfa74945acd50816e487269242e" style="width: 100.0%; height: 100.0%;">The Tiffin Girls' School, Oxbridge pct: 17.0, Russel pct: 80.0</div>`)[0];
+                popup_7caa4dcac84300fb4b1df0e56de3aec8.setContent(html_2636cdfa74945acd50816e487269242e);
+            
+        
+
+        marker_6fb208dc955062210026b8e1da82b88b.bindPopup(popup_7caa4dcac84300fb4b1df0e56de3aec8)
+        ;
+
+        
+    
+    
+            var marker_8ce0602720172e9a8c84c9b9244dc942 = L.marker(
+                [53.393627, -2.916297],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_1af70e455d9df32dd13e41f6b2e4882e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_276961351425f1bf16a878cf4ffc1c34 = $(`<div id="html_276961351425f1bf16a878cf4ffc1c34" style="width: 100.0%; height: 100.0%;">The Blue Coat School, Oxbridge pct: 11.0, Russel pct: 80.0</div>`)[0];
+                popup_1af70e455d9df32dd13e41f6b2e4882e.setContent(html_276961351425f1bf16a878cf4ffc1c34);
+            
+        
+
+        marker_8ce0602720172e9a8c84c9b9244dc942.bindPopup(popup_1af70e455d9df32dd13e41f6b2e4882e)
+        ;
+
+        
+    
+    
+            var marker_73c8c4d3c86b1eef54512833a1bf7648 = L.marker(
+                [51.36685, 0.104052],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_dcd216d488b19d06f7ba7fee0aa7561e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5911f46980ce467348e22dadd0cb361e = $(`<div id="html_5911f46980ce467348e22dadd0cb361e" style="width: 100.0%; height: 100.0%;">St Olave's and St Saviour's Grammar School, Oxbridge pct: 13.0, Russel pct: 78.0</div>`)[0];
+                popup_dcd216d488b19d06f7ba7fee0aa7561e.setContent(html_5911f46980ce467348e22dadd0cb361e);
+            
+        
+
+        marker_73c8c4d3c86b1eef54512833a1bf7648.bindPopup(popup_dcd216d488b19d06f7ba7fee0aa7561e)
+        ;
+
+        
+    
+    
+            var marker_a02cb7bd82c9d46b877a4775cba9bcdc = L.marker(
+                [52.431088, -1.902281],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_bdbcb693d86e25ad215cf791a052bdd9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7c538389760d5c2fe475f18bc77f173 = $(`<div id="html_c7c538389760d5c2fe475f18bc77f173" style="width: 100.0%; height: 100.0%;">King Edward VI Camp Hill School for Girls, Oxbridge pct: 10.0, Russel pct: 77.0</div>`)[0];
+                popup_bdbcb693d86e25ad215cf791a052bdd9.setContent(html_c7c538389760d5c2fe475f18bc77f173);
+            
+        
+
+        marker_a02cb7bd82c9d46b877a4775cba9bcdc.bindPopup(popup_bdbcb693d86e25ad215cf791a052bdd9)
+        ;
+
+        
+    
+    
+            var marker_7fc3b31028ce824abca12a64b4fa8e2e = L.marker(
+                [52.190524, -1.705092],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_e6b459d31d2b03f0331a5498a800a8b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab831cfbd33f9400cec773555c78c6d8 = $(`<div id="html_ab831cfbd33f9400cec773555c78c6d8" style="width: 100.0%; height: 100.0%;">King Edward VI School, Oxbridge pct: 8.0, Russel pct: 76.0</div>`)[0];
+                popup_e6b459d31d2b03f0331a5498a800a8b7.setContent(html_ab831cfbd33f9400cec773555c78c6d8);
+            
+        
+
+        marker_7fc3b31028ce824abca12a64b4fa8e2e.bindPopup(popup_e6b459d31d2b03f0331a5498a800a8b7)
+        ;
+
+        
+    
+    
+            var marker_de205f4ea4c58cf82654208092ff7b5c = L.marker(
+                [52.431088, -1.902281],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_5ad87ad1c2b4a9c4f54b71823875d516 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0580d61abdf0bbfed176aabc885ffbf7 = $(`<div id="html_0580d61abdf0bbfed176aabc885ffbf7" style="width: 100.0%; height: 100.0%;">King Edward VI Camp Hill School for Boys, Oxbridge pct: 12.0, Russel pct: 76.0</div>`)[0];
+                popup_5ad87ad1c2b4a9c4f54b71823875d516.setContent(html_0580d61abdf0bbfed176aabc885ffbf7);
+            
+        
+
+        marker_de205f4ea4c58cf82654208092ff7b5c.bindPopup(popup_5ad87ad1c2b4a9c4f54b71823875d516)
+        ;
+
+        
+    
+    
+            var marker_27ffcc800e39f56a46bd299c973a97fd = L.marker(
+                [51.739804, 0.465268],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_adeb5dfdec65e936b3b989b49a85d708 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0dde3517046aee1bd72632f17d1e470 = $(`<div id="html_c0dde3517046aee1bd72632f17d1e470" style="width: 100.0%; height: 100.0%;">King Edward VI Grammar School, Chelmsford, Oxbridge pct: 11.0, Russel pct: 75.0</div>`)[0];
+                popup_adeb5dfdec65e936b3b989b49a85d708.setContent(html_c0dde3517046aee1bd72632f17d1e470);
+            
+        
+
+        marker_27ffcc800e39f56a46bd299c973a97fd.bindPopup(popup_adeb5dfdec65e936b3b989b49a85d708)
+        ;
+
+        
+    
+    
+            var marker_6857aec1b2dba754ce4df3f80beac14c = L.marker(
+                [53.381212, -2.360471],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_805a5cf7e2c63c6ab25dbc396795bbee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e1408028ca1550ad7f8649dae12f308 = $(`<div id="html_8e1408028ca1550ad7f8649dae12f308" style="width: 100.0%; height: 100.0%;">Altrincham Grammar School for Girls, Oxbridge pct: 3.0, Russel pct: 74.0</div>`)[0];
+                popup_805a5cf7e2c63c6ab25dbc396795bbee.setContent(html_8e1408028ca1550ad7f8649dae12f308);
+            
+        
+
+        marker_6857aec1b2dba754ce4df3f80beac14c.bindPopup(popup_805a5cf7e2c63c6ab25dbc396795bbee)
+        ;
+
+        
+    
+    
+            var marker_8dd494dffa4e3e88f1cb23a722329593 = L.marker(
+                [53.376134, -2.351259],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_dfe53d00c392082d733d0334ccb7a51f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d98763c0eba5306541e6b23259c25712 = $(`<div id="html_d98763c0eba5306541e6b23259c25712" style="width: 100.0%; height: 100.0%;">Altrincham Grammar School for Boys, Oxbridge pct: 10.0, Russel pct: 74.0</div>`)[0];
+                popup_dfe53d00c392082d733d0334ccb7a51f.setContent(html_d98763c0eba5306541e6b23259c25712);
+            
+        
+
+        marker_8dd494dffa4e3e88f1cb23a722329593.bindPopup(popup_dfe53d00c392082d733d0334ccb7a51f)
+        ;
+
+        
+    
+    
+            var marker_8148ef22031544e9bde99f753cce21d9 = L.marker(
+                [51.41177, -0.295623],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_60c6ea3266c380f5b2fae0cf1d7f30b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1c9982bdd30a9bbd0e97eac05f8b915 = $(`<div id="html_b1c9982bdd30a9bbd0e97eac05f8b915" style="width: 100.0%; height: 100.0%;">Tiffin School, Oxbridge pct: 9.0, Russel pct: 73.0</div>`)[0];
+                popup_60c6ea3266c380f5b2fae0cf1d7f30b8.setContent(html_b1c9982bdd30a9bbd0e97eac05f8b915);
+            
+        
+
+        marker_8148ef22031544e9bde99f753cce21d9.bindPopup(popup_60c6ea3266c380f5b2fae0cf1d7f30b8)
+        ;
+
+        
+    
+    
+            var marker_da85fb886d7c34ec6d9646050c7e0983 = L.marker(
+                [52.4321, -1.999309],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_c3efb0a0363613ca78232c5c8a18f90a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1391e611ed6f7b2db11b68253861568c = $(`<div id="html_1391e611ed6f7b2db11b68253861568c" style="width: 100.0%; height: 100.0%;">King Edward VI Five Ways School, Oxbridge pct: 6.0, Russel pct: 72.0</div>`)[0];
+                popup_c3efb0a0363613ca78232c5c8a18f90a.setContent(html_1391e611ed6f7b2db11b68253861568c);
+            
+        
+
+        marker_da85fb886d7c34ec6d9646050c7e0983.bindPopup(popup_c3efb0a0363613ca78232c5c8a18f90a)
+        ;
+
+        
+    
+    
+            var marker_7f224b0950f41ef2a7f6442812f1c525 = L.marker(
+                [51.626023, -0.074141],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_9af17060920faac4abd59df224be0011 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c812314b15cd3710c2fe6c3664114a68 = $(`<div id="html_c812314b15cd3710c2fe6c3664114a68" style="width: 100.0%; height: 100.0%;">The Latymer School, Oxbridge pct: 9.0, Russel pct: 72.0</div>`)[0];
+                popup_9af17060920faac4abd59df224be0011.setContent(html_c812314b15cd3710c2fe6c3664114a68);
+            
+        
+
+        marker_7f224b0950f41ef2a7f6442812f1c525.bindPopup(popup_9af17060920faac4abd59df224be0011)
+        ;
+
+        
+    
+    
+            var marker_414f72f32698267a4406aebfc44c0803 = L.marker(
+                [51.451183, -0.964349],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_a0acdcd912993f40a2d34305427e6624 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_282454782b6dbe7127d22c6557d3fc07 = $(`<div id="html_282454782b6dbe7127d22c6557d3fc07" style="width: 100.0%; height: 100.0%;">Kendrick School, Oxbridge pct: 11.0, Russel pct: 72.0</div>`)[0];
+                popup_a0acdcd912993f40a2d34305427e6624.setContent(html_282454782b6dbe7127d22c6557d3fc07);
+            
+        
+
+        marker_414f72f32698267a4406aebfc44c0803.bindPopup(popup_a0acdcd912993f40a2d34305427e6624)
+        ;
+
+        
+    
+    
+            var marker_130a42ae305023f1fc93d3deabb3b200 = L.marker(
+                [51.532914, 0.056235],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_01a6cf920619fa82bf3a1fc6133cf89e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3cce62c3e0c417714bd8b4d9574bd3d = $(`<div id="html_c3cce62c3e0c417714bd8b4d9574bd3d" style="width: 100.0%; height: 100.0%;">Newham Collegiate Sixth Form Centre, City of London Academy, Oxbridge pct: 5.0, Russel pct: 72.0</div>`)[0];
+                popup_01a6cf920619fa82bf3a1fc6133cf89e.setContent(html_c3cce62c3e0c417714bd8b4d9574bd3d);
+            
+        
+
+        marker_130a42ae305023f1fc93d3deabb3b200.bindPopup(popup_01a6cf920619fa82bf3a1fc6133cf89e)
+        ;
+
+        
+    
+    
+            var marker_f9e8e889d3e0b7b7ba584238b94e212b = L.marker(
+                [51.552954, 0.669407],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_7889ffcddf29b1296925a84cb0061762 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f5359851e45b61253c242f9a376ac3c = $(`<div id="html_5f5359851e45b61253c242f9a376ac3c" style="width: 100.0%; height: 100.0%;">Westcliff High School for Boys Academy, Oxbridge pct: 4.0, Russel pct: 71.0</div>`)[0];
+                popup_7889ffcddf29b1296925a84cb0061762.setContent(html_5f5359851e45b61253c242f9a376ac3c);
+            
+        
+
+        marker_f9e8e889d3e0b7b7ba584238b94e212b.bindPopup(popup_7889ffcddf29b1296925a84cb0061762)
+        ;
+
+        
+    
+    
+            var marker_ca92077d1a769a3e327e7dca4537a46b = L.marker(
+                [51.188114, 0.264672],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_e2f0f9a89457912c71cb2a2c9b89eb88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d9fa0e7de26afc81c70dac0025e49a1 = $(`<div id="html_5d9fa0e7de26afc81c70dac0025e49a1" style="width: 100.0%; height: 100.0%;">The Judd School, Oxbridge pct: 10.0, Russel pct: 71.0</div>`)[0];
+                popup_e2f0f9a89457912c71cb2a2c9b89eb88.setContent(html_5d9fa0e7de26afc81c70dac0025e49a1);
+            
+        
+
+        marker_ca92077d1a769a3e327e7dca4537a46b.bindPopup(popup_e2f0f9a89457912c71cb2a2c9b89eb88)
+        ;
+
+        
+    
+    
+            var marker_39ff1f631e025086d16d8716c4ef9089 = L.marker(
+                [53.38826, -2.357253],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_e6d3ef5b65898f28f4e1f2b608db74af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1fb876d387afd629d68e816aceb59031 = $(`<div id="html_1fb876d387afd629d68e816aceb59031" style="width: 100.0%; height: 100.0%;">Loreto Grammar School, Oxbridge pct: 2.0, Russel pct: 70.0</div>`)[0];
+                popup_e6d3ef5b65898f28f4e1f2b608db74af.setContent(html_1fb876d387afd629d68e816aceb59031);
+            
+        
+
+        marker_39ff1f631e025086d16d8716c4ef9089.bindPopup(popup_e6d3ef5b65898f28f4e1f2b608db74af)
+        ;
+
+        
+    
+    
+            var marker_0bb8431ee993e05f4e71d8679ca5cb6f = L.marker(
+                [51.486225, -0.196192],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_243b1ea0e5939f862c2ff81f9c88b7af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_912bad8d3964fbe6fa460053332e07c1 = $(`<div id="html_912bad8d3964fbe6fa460053332e07c1" style="width: 100.0%; height: 100.0%;">The London Oratory School, Oxbridge pct: 4.0, Russel pct: 69.0</div>`)[0];
+                popup_243b1ea0e5939f862c2ff81f9c88b7af.setContent(html_912bad8d3964fbe6fa460053332e07c1);
+            
+        
+
+        marker_0bb8431ee993e05f4e71d8679ca5cb6f.bindPopup(popup_243b1ea0e5939f862c2ff81f9c88b7af)
+        ;
+
+        
+    
+    
+            var marker_183b3852ce033e70283353ff740e5bf1 = L.marker(
+                [51.365084, -0.189761],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_d82e9a0beeba0a353a441ee23670a7b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee354c77e2f1614be173d52f91330a37 = $(`<div id="html_ee354c77e2f1614be173d52f91330a37" style="width: 100.0%; height: 100.0%;">Sutton Grammar School, Oxbridge pct: 8.0, Russel pct: 69.0</div>`)[0];
+                popup_d82e9a0beeba0a353a441ee23670a7b6.setContent(html_ee354c77e2f1614be173d52f91330a37);
+            
+        
+
+        marker_183b3852ce033e70283353ff740e5bf1.bindPopup(popup_d82e9a0beeba0a353a441ee23670a7b6)
+        ;
+
+        
+    
+    
+            var marker_7f4377e8f887de8c3ad0f8c35c14b189 = L.marker(
+                [51.676146, -0.610956],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_a4fc54aa1d0a242439b1df11cd214581 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90faef5165b4d01ee4a65662e4543716 = $(`<div id="html_90faef5165b4d01ee4a65662e4543716" style="width: 100.0%; height: 100.0%;">Dr Challoner's Grammar School, Oxbridge pct: 9.0, Russel pct: 69.0</div>`)[0];
+                popup_a4fc54aa1d0a242439b1df11cd214581.setContent(html_90faef5165b4d01ee4a65662e4543716);
+            
+        
+
+        marker_7f4377e8f887de8c3ad0f8c35c14b189.bindPopup(popup_a4fc54aa1d0a242439b1df11cd214581)
+        ;
+
+        
+    
+    
+            var marker_d05bf528b80835c8f432b8061353428a = L.marker(
+                [51.690846, -0.206859],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_60adadbfc9681cb379a74beef5cc8e88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28c38b41585e5327e0a91c596b980dca = $(`<div id="html_28c38b41585e5327e0a91c596b980dca" style="width: 100.0%; height: 100.0%;">Dame Alice Owen's School, Oxbridge pct: 13.0, Russel pct: 68.0</div>`)[0];
+                popup_60adadbfc9681cb379a74beef5cc8e88.setContent(html_28c38b41585e5327e0a91c596b980dca);
+            
+        
+
+        marker_d05bf528b80835c8f432b8061353428a.bindPopup(popup_60adadbfc9681cb379a74beef5cc8e88)
+        ;
+
+        
+    
+    
+            var marker_1881ab98a19d73380cd58b1f6cb19bf1 = L.marker(
+                [51.355434, -0.223734],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_466c5e2c1e5dea07ccf275e59e85c6c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d4adf3b6959fd91c012e0736ff89764 = $(`<div id="html_8d4adf3b6959fd91c012e0736ff89764" style="width: 100.0%; height: 100.0%;">Nonsuch High School for Girls, Oxbridge pct: 7.0, Russel pct: 68.0</div>`)[0];
+                popup_466c5e2c1e5dea07ccf275e59e85c6c3.setContent(html_8d4adf3b6959fd91c012e0736ff89764);
+            
+        
+
+        marker_1881ab98a19d73380cd58b1f6cb19bf1.bindPopup(popup_466c5e2c1e5dea07ccf275e59e85c6c3)
+        ;
+
+        
+    
+    
+            var marker_935473dfcb336c6f57699ca8deb5b823 = L.marker(
+                [50.727024, -3.071953],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_35dc5cebddedfd4839dcfcc62852e34d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e44c9111c26685fe89f56e1424ba5a20 = $(`<div id="html_e44c9111c26685fe89f56e1424ba5a20" style="width: 100.0%; height: 100.0%;">Colyton Grammar School, Oxbridge pct: 11.0, Russel pct: 67.0</div>`)[0];
+                popup_35dc5cebddedfd4839dcfcc62852e34d.setContent(html_e44c9111c26685fe89f56e1424ba5a20);
+            
+        
+
+        marker_935473dfcb336c6f57699ca8deb5b823.bindPopup(popup_35dc5cebddedfd4839dcfcc62852e34d)
+        ;
+
+        
+    
+    
+            var marker_cfbe7d72436e8575887cfdfe66b1ef0c = L.marker(
+                [51.499549, -0.131187],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_de8694237ec4b1a3c6a78eaaec389c5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c568a2aab82b4a2051488c43419932ca = $(`<div id="html_c568a2aab82b4a2051488c43419932ca" style="width: 100.0%; height: 100.0%;">Harris Westminster Sixth Form, Oxbridge pct: 14.0, Russel pct: 67.0</div>`)[0];
+                popup_de8694237ec4b1a3c6a78eaaec389c5f.setContent(html_c568a2aab82b4a2051488c43419932ca);
+            
+        
+
+        marker_cfbe7d72436e8575887cfdfe66b1ef0c.bindPopup(popup_de8694237ec4b1a3c6a78eaaec389c5f)
+        ;
+
+        
+    
+    
+            var marker_13ab9a21af8e76f7dd1bd8999e2e9fd4 = L.marker(
+                [51.503872, -0.211816],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_11c2b339de9ce8b4295a6b485d890be3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3032271f603b204c4ddfa8635407ee6b = $(`<div id="html_3032271f603b204c4ddfa8635407ee6b" style="width: 100.0%; height: 100.0%;">The Cardinal Vaughan Memorial RC School, Oxbridge pct: 7.0, Russel pct: 67.0</div>`)[0];
+                popup_11c2b339de9ce8b4295a6b485d890be3.setContent(html_3032271f603b204c4ddfa8635407ee6b);
+            
+        
+
+        marker_13ab9a21af8e76f7dd1bd8999e2e9fd4.bindPopup(popup_11c2b339de9ce8b4295a6b485d890be3)
+        ;
+
+        
+    
+    
+            var marker_bdbe8cd4447399d0d9e88b7041b38b78 = L.marker(
+                [51.886685, 0.886988],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_24188b7bdfcdde3a97253205628a2c8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b34fa4828bc21e759590afaf6f913b8 = $(`<div id="html_0b34fa4828bc21e759590afaf6f913b8" style="width: 100.0%; height: 100.0%;">Colchester Royal Grammar School, Oxbridge pct: 16.0, Russel pct: 66.0</div>`)[0];
+                popup_24188b7bdfcdde3a97253205628a2c8e.setContent(html_0b34fa4828bc21e759590afaf6f913b8);
+            
+        
+
+        marker_bdbe8cd4447399d0d9e88b7041b38b78.bindPopup(popup_24188b7bdfcdde3a97253205628a2c8e)
+        ;
+
+        
+    
+    
+            var marker_60143984297d24a1117b47faa4982ac4 = L.marker(
+                [51.885168, 0.875249],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_503233f996c48fbc90dfc8d2dc672a0f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7db29b2709ceb639f843e779108e040f = $(`<div id="html_7db29b2709ceb639f843e779108e040f" style="width: 100.0%; height: 100.0%;">Colchester County High School for Girls, Oxbridge pct: 16.0, Russel pct: 66.0</div>`)[0];
+                popup_503233f996c48fbc90dfc8d2dc672a0f.setContent(html_7db29b2709ceb639f843e779108e040f);
+            
+        
+
+        marker_60143984297d24a1117b47faa4982ac4.bindPopup(popup_503233f996c48fbc90dfc8d2dc672a0f)
+        ;
+
+        
+    
+    
+            var marker_82d6a6d9f3eded614e40ac8d7612f42e = L.marker(
+                [51.6042, -0.067574],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_886966bd08db11c2f335f8e8e1421490 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b231d937ee37c82b0daec97a47f440ad = $(`<div id="html_b231d937ee37c82b0daec97a47f440ad" style="width: 100.0%; height: 100.0%;">London Academy of Excellence Tottenham, Oxbridge pct: 7.0, Russel pct: 66.0</div>`)[0];
+                popup_886966bd08db11c2f335f8e8e1421490.setContent(html_b231d937ee37c82b0daec97a47f440ad);
+            
+        
+
+        marker_82d6a6d9f3eded614e40ac8d7612f42e.bindPopup(popup_886966bd08db11c2f335f8e8e1421490)
+        ;
+
+        
+    
+    
+            var marker_a22bbd671c3e64b5dcca94c80334d5f1 = L.marker(
+                [50.726143, -3.529695],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_ed3bcb086b7e649930eef9780ddfb61b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_688dfc7470624d6ff3b900afa10e7183 = $(`<div id="html_688dfc7470624d6ff3b900afa10e7183" style="width: 100.0%; height: 100.0%;">Exeter Mathematics School, Oxbridge pct: 18.0, Russel pct: 66.0</div>`)[0];
+                popup_ed3bcb086b7e649930eef9780ddfb61b.setContent(html_688dfc7470624d6ff3b900afa10e7183);
+            
+        
+
+        marker_a22bbd671c3e64b5dcca94c80334d5f1.bindPopup(popup_ed3bcb086b7e649930eef9780ddfb61b)
+        ;
+
+        
+    
+    
+            var marker_56a461e6aaf648469f7cc13d7a8651e4 = L.marker(
+                [51.74305, 0.467401],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_e1b8152bedeb3141305cf0774b3f74b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_579dd23714ba4a98c8726632f6d477df = $(`<div id="html_579dd23714ba4a98c8726632f6d477df" style="width: 100.0%; height: 100.0%;">Chelmsford County High School for Girls, Oxbridge pct: 17.0, Russel pct: 66.0</div>`)[0];
+                popup_e1b8152bedeb3141305cf0774b3f74b2.setContent(html_579dd23714ba4a98c8726632f6d477df);
+            
+        
+
+        marker_56a461e6aaf648469f7cc13d7a8651e4.bindPopup(popup_e1b8152bedeb3141305cf0774b3f74b2)
+        ;
+
+        
+    
+    
+            var marker_44527c0a384b27f87d461945fe6f9527 = L.marker(
+                [51.504888, -0.200623],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_4bab6dc975b6c01838bd23c92c8e4f5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e659aabb4c8bbf4c48ac53e8ead5f0f = $(`<div id="html_7e659aabb4c8bbf4c48ac53e8ead5f0f" style="width: 100.0%; height: 100.0%;">Holland Park School, Oxbridge pct: 6.0, Russel pct: 64.0</div>`)[0];
+                popup_4bab6dc975b6c01838bd23c92c8e4f5e.setContent(html_7e659aabb4c8bbf4c48ac53e8ead5f0f);
+            
+        
+
+        marker_44527c0a384b27f87d461945fe6f9527.bindPopup(popup_4bab6dc975b6c01838bd23c92c8e4f5e)
+        ;
+
+        
+    
+    
+            var marker_f9cbf40c5659e69c3e8ed82572ad4416 = L.marker(
+                [51.545988, -0.134693],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_eb29d8b2da716eb9d1e764d4724c2852 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74ec57b835c3e574b528c2241703fe86 = $(`<div id="html_74ec57b835c3e574b528c2241703fe86" style="width: 100.0%; height: 100.0%;">The Camden School for Girls, Oxbridge pct: 7.0, Russel pct: 63.0</div>`)[0];
+                popup_eb29d8b2da716eb9d1e764d4724c2852.setContent(html_74ec57b835c3e574b528c2241703fe86);
+            
+        
+
+        marker_f9cbf40c5659e69c3e8ed82572ad4416.bindPopup(popup_eb29d8b2da716eb9d1e764d4724c2852)
+        ;
+
+        
+    
+    
+            var marker_b7c9146ddb4856b84162a860a0e5fec0 = L.marker(
+                [51.667303, -0.56985],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_455c4a7975c17908bf85294b71aa95c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de8ed0cc8f876bbea0065b9982bf42fe = $(`<div id="html_de8ed0cc8f876bbea0065b9982bf42fe" style="width: 100.0%; height: 100.0%;">Dr Challoner's High School, Oxbridge pct: 3.0, Russel pct: 63.0</div>`)[0];
+                popup_455c4a7975c17908bf85294b71aa95c8.setContent(html_de8ed0cc8f876bbea0065b9982bf42fe);
+            
+        
+
+        marker_b7c9146ddb4856b84162a860a0e5fec0.bindPopup(popup_455c4a7975c17908bf85294b71aa95c8)
+        ;
+
+        
+    
+    
+            var marker_61c4b687f15eab15329344635b77236f = L.marker(
+                [52.569018, -1.821995],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_3fd05884bd31edc37db9a9b3d9d5a873 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5ae8c72dd6ade38cb62607b5a18d7d0 = $(`<div id="html_f5ae8c72dd6ade38cb62607b5a18d7d0" style="width: 100.0%; height: 100.0%;">Bishop Vesey's Grammar School, Oxbridge pct: 3.0, Russel pct: 62.0</div>`)[0];
+                popup_3fd05884bd31edc37db9a9b3d9d5a873.setContent(html_f5ae8c72dd6ade38cb62607b5a18d7d0);
+            
+        
+
+        marker_61c4b687f15eab15329344635b77236f.bindPopup(popup_3fd05884bd31edc37db9a9b3d9d5a873)
+        ;
+
+        
+    
+    
+            var marker_6408d6aa4d52d7c61e37fecd8a065c08 = L.marker(
+                [51.518647, -0.024622],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_91202b567d2712b6e5d0aa1918c1b1c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc54974ceeab780fbeeccc81cfb9d04a = $(`<div id="html_cc54974ceeab780fbeeccc81cfb9d04a" style="width: 100.0%; height: 100.0%;">St Paul's Way Trust School, Oxbridge pct: 3.0, Russel pct: 62.0</div>`)[0];
+                popup_91202b567d2712b6e5d0aa1918c1b1c8.setContent(html_cc54974ceeab780fbeeccc81cfb9d04a);
+            
+        
+
+        marker_6408d6aa4d52d7c61e37fecd8a065c08.bindPopup(popup_91202b567d2712b6e5d0aa1918c1b1c8)
+        ;
+
+        
+    
+    
+            var marker_ff50d7603feaf6de9e34fb0fbee482ed = L.marker(
+                [54.779772, -1.59686],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_75a23c3ce22909feef0844a0ec6c870a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b0fd5b8ee32deb155b664f7bfefc68b = $(`<div id="html_9b0fd5b8ee32deb155b664f7bfefc68b" style="width: 100.0%; height: 100.0%;">Durham Johnston Comprehensive School, Oxbridge pct: 5.0, Russel pct: 62.0</div>`)[0];
+                popup_75a23c3ce22909feef0844a0ec6c870a.setContent(html_9b0fd5b8ee32deb155b664f7bfefc68b);
+            
+        
+
+        marker_ff50d7603feaf6de9e34fb0fbee482ed.bindPopup(popup_75a23c3ce22909feef0844a0ec6c870a)
+        ;
+
+        
+    
+    
+            var marker_eba3157adc38bd432a093880fbd120dd = L.marker(
+                [52.190133, -1.725677],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_835a9bf5d80656b62172adc0688da804 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f015b07217e23e16208527aa9773cb58 = $(`<div id="html_f015b07217e23e16208527aa9773cb58" style="width: 100.0%; height: 100.0%;">Stratford Girls' Grammar School, Oxbridge pct: 7.0, Russel pct: 61.0</div>`)[0];
+                popup_835a9bf5d80656b62172adc0688da804.setContent(html_f015b07217e23e16208527aa9773cb58);
+            
+        
+
+        marker_eba3157adc38bd432a093880fbd120dd.bindPopup(popup_835a9bf5d80656b62172adc0688da804)
+        ;
+
+        
+    
+    
+            var marker_8aa3e8fbfd034c719dd0e28bb160cc84 = L.marker(
+                [51.570216, -0.78166],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_76e7da4885dff2efd5e0b63cc882f653 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_032bfad9862178123330e7b45d969e2c = $(`<div id="html_032bfad9862178123330e7b45d969e2c" style="width: 100.0%; height: 100.0%;">Sir William Borlase's Grammar School, Oxbridge pct: 4.0, Russel pct: 61.0</div>`)[0];
+                popup_76e7da4885dff2efd5e0b63cc882f653.setContent(html_032bfad9862178123330e7b45d969e2c);
+            
+        
+
+        marker_8aa3e8fbfd034c719dd0e28bb160cc84.bindPopup(popup_76e7da4885dff2efd5e0b63cc882f653)
+        ;
+
+        
+    
+    
+            var marker_8efa9f211ce3c82b30e100ba895e43cb = L.marker(
+                [51.142892, 0.261085],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_5d6427e532a1ac8a494ffd910eccc161 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b0cde9751db2d2eb1fab12d336298c4 = $(`<div id="html_0b0cde9751db2d2eb1fab12d336298c4" style="width: 100.0%; height: 100.0%;">The Skinners' School, Oxbridge pct: 5.0, Russel pct: 61.0</div>`)[0];
+                popup_5d6427e532a1ac8a494ffd910eccc161.setContent(html_0b0cde9751db2d2eb1fab12d336298c4);
+            
+        
+
+        marker_8efa9f211ce3c82b30e100ba895e43cb.bindPopup(popup_5d6427e532a1ac8a494ffd910eccc161)
+        ;
+
+        
+    
+    
+            var marker_41c13841ab5153cf706e95cd20b9071e = L.marker(
+                [51.651456, -0.396191],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_c57f90e732ed7892192defb5117239eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_549320f756d817bd7a1979cf65c4a4af = $(`<div id="html_549320f756d817bd7a1979cf65c4a4af" style="width: 100.0%; height: 100.0%;">Watford Grammar School for Girls, Oxbridge pct: 3.0, Russel pct: 61.0</div>`)[0];
+                popup_c57f90e732ed7892192defb5117239eb.setContent(html_549320f756d817bd7a1979cf65c4a4af);
+            
+        
+
+        marker_41c13841ab5153cf706e95cd20b9071e.bindPopup(popup_c57f90e732ed7892192defb5117239eb)
+        ;
+
+        
+    
+    
+            var marker_de07312c22e4bb934870e41be0f1ae57 = L.marker(
+                [51.581028, -0.281071],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_b2d045897f3473add7fc47af6989cad4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac86851093b610e142f086b5fd6ba140 = $(`<div id="html_ac86851093b610e142f086b5fd6ba140" style="width: 100.0%; height: 100.0%;">JFS, Oxbridge pct: 6.0, Russel pct: 60.0</div>`)[0];
+                popup_b2d045897f3473add7fc47af6989cad4.setContent(html_ac86851093b610e142f086b5fd6ba140);
+            
+        
+
+        marker_de07312c22e4bb934870e41be0f1ae57.bindPopup(popup_b2d045897f3473add7fc47af6989cad4)
+        ;
+
+        
+    
+    
+            var marker_bc8a1cd63629210cb9ecb502098f733c = L.marker(
+                [51.703238, -0.389441],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_e7c4292451b4d85ec36e97e16173b92b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46a57464b3b9a27090a73ff59731fc02 = $(`<div id="html_46a57464b3b9a27090a73ff59731fc02" style="width: 100.0%; height: 100.0%;">Parmiter's School, Oxbridge pct: 6.0, Russel pct: 60.0</div>`)[0];
+                popup_e7c4292451b4d85ec36e97e16173b92b.setContent(html_46a57464b3b9a27090a73ff59731fc02);
+            
+        
+
+        marker_bc8a1cd63629210cb9ecb502098f733c.bindPopup(popup_e7c4292451b4d85ec36e97e16173b92b)
+        ;
+
+        
+    
+    
+            var marker_72fa692e9535bcc101dfd69ff9e02ab3 = L.marker(
+                [51.509193, -0.281384],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_ab2095022ca36d2ecffa5f8642626471 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ee2ea97c81809f9377f040661551ffc = $(`<div id="html_0ee2ea97c81809f9377f040661551ffc" style="width: 100.0%; height: 100.0%;">Twyford Church of England High School, Oxbridge pct: 6.0, Russel pct: 59.0</div>`)[0];
+                popup_ab2095022ca36d2ecffa5f8642626471.setContent(html_0ee2ea97c81809f9377f040661551ffc);
+            
+        
+
+        marker_72fa692e9535bcc101dfd69ff9e02ab3.bindPopup(popup_ab2095022ca36d2ecffa5f8642626471)
+        ;
+
+        
+    
+    
+            var marker_f7aa07a5bb0093bc9c67788ddb783205 = L.marker(
+                [51.813976, -0.801486],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_931ddf9c6b5dc04e1f281e90a8a6ab14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfe20b2bc5a626ea2a481cb8b88e7293 = $(`<div id="html_bfe20b2bc5a626ea2a481cb8b88e7293" style="width: 100.0%; height: 100.0%;">Aylesbury Grammar School, Oxbridge pct: 6.0, Russel pct: 59.0</div>`)[0];
+                popup_931ddf9c6b5dc04e1f281e90a8a6ab14.setContent(html_bfe20b2bc5a626ea2a481cb8b88e7293);
+            
+        
+
+        marker_f7aa07a5bb0093bc9c67788ddb783205.bindPopup(popup_931ddf9c6b5dc04e1f281e90a8a6ab14)
+        ;
+
+        
+    
+    
+            var marker_9d9f92c0cbcf89617095ebe92c65c2a8 = L.marker(
+                [51.474182, -0.199643],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_260d9bb30505bf67afa86d5da9bdc366 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_797aa18222d067b3e76ea48f9687dc7d = $(`<div id="html_797aa18222d067b3e76ea48f9687dc7d" style="width: 100.0%; height: 100.0%;">Lady Margaret School, Oxbridge pct: 5.0, Russel pct: 59.0</div>`)[0];
+                popup_260d9bb30505bf67afa86d5da9bdc366.setContent(html_797aa18222d067b3e76ea48f9687dc7d);
+            
+        
+
+        marker_9d9f92c0cbcf89617095ebe92c65c2a8.bindPopup(popup_260d9bb30505bf67afa86d5da9bdc366)
+        ;
+
+        
+    
+    
+            var marker_544769df0c38de98b193b5ad3af178be = L.marker(
+                [52.915938, -0.641693],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_a9b23d334c55fb8710624653bdee315e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b828d58c4d0ba9988a542d821ce936f = $(`<div id="html_3b828d58c4d0ba9988a542d821ce936f" style="width: 100.0%; height: 100.0%;">The King's School, Grantham, Oxbridge pct: 4.0, Russel pct: 58.0</div>`)[0];
+                popup_a9b23d334c55fb8710624653bdee315e.setContent(html_3b828d58c4d0ba9988a542d821ce936f);
+            
+        
+
+        marker_544769df0c38de98b193b5ad3af178be.bindPopup(popup_a9b23d334c55fb8710624653bdee315e)
+        ;
+
+        
+    
+    
+            var marker_55512db72496b378e42a10170657c95c = L.marker(
+                [53.364227, -2.186553],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_b946f99b45cb395881d13ebbe3abd348 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb6132749d6cf561c6a18505bf8b66c0 = $(`<div id="html_fb6132749d6cf561c6a18505bf8b66c0" style="width: 100.0%; height: 100.0%;">Cheadle Hulme High School, Oxbridge pct: 3.0, Russel pct: 58.0</div>`)[0];
+                popup_b946f99b45cb395881d13ebbe3abd348.setContent(html_fb6132749d6cf561c6a18505bf8b66c0);
+            
+        
+
+        marker_55512db72496b378e42a10170657c95c.bindPopup(popup_b946f99b45cb395881d13ebbe3abd348)
+        ;
+
+        
+    
+    
+            var marker_80e21f482b04d1c81918d4fcc7b9eda7 = L.marker(
+                [53.418113, -2.315028],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_4f73a215fcb7f1f96b1c5be0eff69c50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d004ab7ebb34276330e045af7cb7781a = $(`<div id="html_d004ab7ebb34276330e045af7cb7781a" style="width: 100.0%; height: 100.0%;">Sale Grammar School, Oxbridge pct: 3.0, Russel pct: 58.0</div>`)[0];
+                popup_4f73a215fcb7f1f96b1c5be0eff69c50.setContent(html_d004ab7ebb34276330e045af7cb7781a);
+            
+        
+
+        marker_80e21f482b04d1c81918d4fcc7b9eda7.bindPopup(popup_4f73a215fcb7f1f96b1c5be0eff69c50)
+        ;
+
+        
+    
+    
+            var marker_7d02fb3bdeb0ac67a1ebf84afd09521f = L.marker(
+                [51.607619, 0.018737],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_0edd0fd72cb64ca7b1999b272ccdcd28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_775886e6735dcb6a25eccc9beffb6fec = $(`<div id="html_775886e6735dcb6a25eccc9beffb6fec" style="width: 100.0%; height: 100.0%;">Woodford County High School, Oxbridge pct: 5.0, Russel pct: 58.0</div>`)[0];
+                popup_0edd0fd72cb64ca7b1999b272ccdcd28.setContent(html_775886e6735dcb6a25eccc9beffb6fec);
+            
+        
+
+        marker_7d02fb3bdeb0ac67a1ebf84afd09521f.bindPopup(popup_0edd0fd72cb64ca7b1999b272ccdcd28)
+        ;
+
+        
+    
+    
+            var marker_1460a30eba25945023592eacb9c75484 = L.marker(
+                [51.498904, -0.55317],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_4ac21fc05b00d77f5d3990cd0d3d6eb1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e76cc1000d0da443a6005657005eca3b = $(`<div id="html_e76cc1000d0da443a6005657005eca3b" style="width: 100.0%; height: 100.0%;">Langley Grammar School, Oxbridge pct: 3.0, Russel pct: 58.0</div>`)[0];
+                popup_4ac21fc05b00d77f5d3990cd0d3d6eb1.setContent(html_e76cc1000d0da443a6005657005eca3b);
+            
+        
+
+        marker_1460a30eba25945023592eacb9c75484.bindPopup(popup_4ac21fc05b00d77f5d3990cd0d3d6eb1)
+        ;
+
+        
+    
+    
+            var marker_a14e9076ac074ad11d27a2d96f7c786f = L.marker(
+                [52.553735, -1.830456],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_af821e02a605ae8ebd6dcf5b3e2c2be9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a37a6168d791101df077f412f2af26a5 = $(`<div id="html_a37a6168d791101df077f412f2af26a5" style="width: 100.0%; height: 100.0%;">Sutton Coldfield Grammar School for Girls, Oxbridge pct: 5.0, Russel pct: 58.0</div>`)[0];
+                popup_af821e02a605ae8ebd6dcf5b3e2c2be9.setContent(html_a37a6168d791101df077f412f2af26a5);
+            
+        
+
+        marker_a14e9076ac074ad11d27a2d96f7c786f.bindPopup(popup_af821e02a605ae8ebd6dcf5b3e2c2be9)
+        ;
+
+        
+    
+    
+            var marker_1c7e42e0775eea1fbac8bfe635a0d8f6 = L.marker(
+                [51.65502, -0.414324],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_19dd915e1cac5a279bdb886584faffc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b786c923cde3693fe3d919a7fcdedd43 = $(`<div id="html_b786c923cde3693fe3d919a7fcdedd43" style="width: 100.0%; height: 100.0%;">Watford Grammar School for Boys, Oxbridge pct: 2.0, Russel pct: 58.0</div>`)[0];
+                popup_19dd915e1cac5a279bdb886584faffc7.setContent(html_b786c923cde3693fe3d919a7fcdedd43);
+            
+        
+
+        marker_1c7e42e0775eea1fbac8bfe635a0d8f6.bindPopup(popup_19dd915e1cac5a279bdb886584faffc7)
+        ;
+
+        
+    
+    
+            var marker_45a73d86d14f2bc27a565350c9c53d77 = L.marker(
+                [51.58571, -2.109962],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_7d3b15fdfeb24c775f0adcb00df8954d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dafd2c421d8b15b4bf6bd2af1c5f3f03 = $(`<div id="html_dafd2c421d8b15b4bf6bd2af1c5f3f03" style="width: 100.0%; height: 100.0%;">Malmesbury School, Oxbridge pct: 2.0, Russel pct: 58.0</div>`)[0];
+                popup_7d3b15fdfeb24c775f0adcb00df8954d.setContent(html_dafd2c421d8b15b4bf6bd2af1c5f3f03);
+            
+        
+
+        marker_45a73d86d14f2bc27a565350c9c53d77.bindPopup(popup_7d3b15fdfeb24c775f0adcb00df8954d)
+        ;
+
+        
+    
+    
+            var marker_d90cc682cee48aad6e5c7dac3b1f0cac = L.marker(
+                [51.592781, -0.150924],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_bfb4e6bb94f71e7c51e5dc34c20817f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_662aebd6b81353743bd636ca76de400c = $(`<div id="html_662aebd6b81353743bd636ca76de400c" style="width: 100.0%; height: 100.0%;">Fortismere School, Oxbridge pct: 5.0, Russel pct: 58.0</div>`)[0];
+                popup_bfb4e6bb94f71e7c51e5dc34c20817f4.setContent(html_662aebd6b81353743bd636ca76de400c);
+            
+        
+
+        marker_d90cc682cee48aad6e5c7dac3b1f0cac.bindPopup(popup_bfb4e6bb94f71e7c51e5dc34c20817f4)
+        ;
+
+        
+    
+    
+            var marker_153f9c2577a38b1021492ab42aa6dcac = L.marker(
+                [51.369019, -0.149192],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_f67a1dca35ca2be6f47316b6b0683fd3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c5fd9a398ddcde36a112b700d8362f3 = $(`<div id="html_8c5fd9a398ddcde36a112b700d8362f3" style="width: 100.0%; height: 100.0%;">Wallington County Grammar School, Oxbridge pct: 4.0, Russel pct: 57.0</div>`)[0];
+                popup_f67a1dca35ca2be6f47316b6b0683fd3.setContent(html_8c5fd9a398ddcde36a112b700d8362f3);
+            
+        
+
+        marker_153f9c2577a38b1021492ab42aa6dcac.bindPopup(popup_f67a1dca35ca2be6f47316b6b0683fd3)
+        ;
+
+        
+    
+    
+            var marker_156ff2130decdb680914436af4c12404 = L.marker(
+                [50.748604, -1.858446],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_5b2ebf08fb5d5983343ba37e81548cfd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81602d1d83624a92efec458df707fc6a = $(`<div id="html_81602d1d83624a92efec458df707fc6a" style="width: 100.0%; height: 100.0%;">Bournemouth School, Oxbridge pct: 3.0, Russel pct: 57.0</div>`)[0];
+                popup_5b2ebf08fb5d5983343ba37e81548cfd.setContent(html_81602d1d83624a92efec458df707fc6a);
+            
+        
+
+        marker_156ff2130decdb680914436af4c12404.bindPopup(popup_5b2ebf08fb5d5983343ba37e81548cfd)
+        ;
+
+        
+    
+    
+            var marker_2b8ef9cab91d18d71d0a2280275b3db3 = L.marker(
+                [53.371448, -2.320334],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_7105cca6f8f16f97420a114ed8bf0658 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d84a7bf43e7cc0530a355248aaae6472 = $(`<div id="html_d84a7bf43e7cc0530a355248aaae6472" style="width: 100.0%; height: 100.0%;">Saint Ambrose College, Oxbridge pct: 2.0, Russel pct: 57.0</div>`)[0];
+                popup_7105cca6f8f16f97420a114ed8bf0658.setContent(html_d84a7bf43e7cc0530a355248aaae6472);
+            
+        
+
+        marker_2b8ef9cab91d18d71d0a2280275b3db3.bindPopup(popup_7105cca6f8f16f97420a114ed8bf0658)
+        ;
+
+        
+    
+    
+            var marker_98f4309deca2f2a192a90a812dd45894 = L.marker(
+                [51.347998, -0.148862],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_1bd7efc5be8703f265c83b4289bc768f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f5ba16f1ca302a7a6a62805bc8dd25d = $(`<div id="html_7f5ba16f1ca302a7a6a62805bc8dd25d" style="width: 100.0%; height: 100.0%;">Wallington High School for Girls, Oxbridge pct: 2.0, Russel pct: 57.0</div>`)[0];
+                popup_1bd7efc5be8703f265c83b4289bc768f.setContent(html_7f5ba16f1ca302a7a6a62805bc8dd25d);
+            
+        
+
+        marker_98f4309deca2f2a192a90a812dd45894.bindPopup(popup_1bd7efc5be8703f265c83b4289bc768f)
+        ;
+
+        
+    
+    
+            var marker_3d78127f060a3023064651cc56a8bcb1 = L.marker(
+                [51.641104, -0.738806],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_8ac7ed21637a9a735f899cf7b4e50815 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2bde4749c42b76458a8ff7f5e08cadc9 = $(`<div id="html_2bde4749c42b76458a8ff7f5e08cadc9" style="width: 100.0%; height: 100.0%;">The Royal Grammar School, High Wycombe, Oxbridge pct: 11.0, Russel pct: 57.0</div>`)[0];
+                popup_8ac7ed21637a9a735f899cf7b4e50815.setContent(html_2bde4749c42b76458a8ff7f5e08cadc9);
+            
+        
+
+        marker_3d78127f060a3023064651cc56a8bcb1.bindPopup(popup_8ac7ed21637a9a735f899cf7b4e50815)
+        ;
+
+        
+    
+    
+            var marker_e5732ff31157eb90ee656e364a721590 = L.marker(
+                [51.36678, 0.074196],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_50727c78c77e2bfae9173afbca5f5624 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab935c4759f998b6a3015edaf7aa8dcb = $(`<div id="html_ab935c4759f998b6a3015edaf7aa8dcb" style="width: 100.0%; height: 100.0%;">Newstead Wood School, Oxbridge pct: 10.0, Russel pct: 56.0</div>`)[0];
+                popup_50727c78c77e2bfae9173afbca5f5624.setContent(html_ab935c4759f998b6a3015edaf7aa8dcb);
+            
+        
+
+        marker_e5732ff31157eb90ee656e364a721590.bindPopup(popup_50727c78c77e2bfae9173afbca5f5624)
+        ;
+
+        
+    
+    
+            var marker_56d2a93572bec02f938e737e0c7c85b0 = L.marker(
+                [54.139572, -1.539148],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_a724b93570b666fa3e9cb38fcaae9caf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_591a36d54952438a3db0e5f92560e49b = $(`<div id="html_591a36d54952438a3db0e5f92560e49b" style="width: 100.0%; height: 100.0%;">Ripon Grammar School, Oxbridge pct: 6.0, Russel pct: 56.0</div>`)[0];
+                popup_a724b93570b666fa3e9cb38fcaae9caf.setContent(html_591a36d54952438a3db0e5f92560e49b);
+            
+        
+
+        marker_56d2a93572bec02f938e737e0c7c85b0.bindPopup(popup_a724b93570b666fa3e9cb38fcaae9caf)
+        ;
+
+        
+    
+    
+            var marker_28044a62e04f9219978adb525fff5182 = L.marker(
+                [53.385664, -3.100173],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_024d9cc185efa02cf289fe357eb1689b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c6074935ddca405fd58890a178a7b8c = $(`<div id="html_8c6074935ddca405fd58890a178a7b8c" style="width: 100.0%; height: 100.0%;">Upton Hall School FCJ, Oxbridge pct: 4.0, Russel pct: 56.0</div>`)[0];
+                popup_024d9cc185efa02cf289fe357eb1689b.setContent(html_8c6074935ddca405fd58890a178a7b8c);
+            
+        
+
+        marker_28044a62e04f9219978adb525fff5182.bindPopup(popup_024d9cc185efa02cf289fe357eb1689b)
+        ;
+
+        
+    
+    
+            var marker_e0db9c7f5b306bbc407478206eec7b38 = L.marker(
+                [52.769293, -2.38182],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_4b9b1050bccf354faabffae9f1634a66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2866078928ce63f39014b2611c9e2f3 = $(`<div id="html_c2866078928ce63f39014b2611c9e2f3" style="width: 100.0%; height: 100.0%;">Haberdashers' Adams, Oxbridge pct: 5.0, Russel pct: 56.0</div>`)[0];
+                popup_4b9b1050bccf354faabffae9f1634a66.setContent(html_c2866078928ce63f39014b2611c9e2f3);
+            
+        
+
+        marker_e0db9c7f5b306bbc407478206eec7b38.bindPopup(popup_4b9b1050bccf354faabffae9f1634a66)
+        ;
+
+        
+    
+    
+            var marker_c9e0524922df64511380257a2b211e83 = L.marker(
+                [51.654287, -0.268181],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_8ebf8d4da77fccb959053f325fee6d5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b3d1c44323dc47b2b2c6d02ebb8d272 = $(`<div id="html_9b3d1c44323dc47b2b2c6d02ebb8d272" style="width: 100.0%; height: 100.0%;">Yavneh College, Oxbridge pct: 1.0, Russel pct: 56.0</div>`)[0];
+                popup_8ebf8d4da77fccb959053f325fee6d5f.setContent(html_9b3d1c44323dc47b2b2c6d02ebb8d272);
+            
+        
+
+        marker_c9e0524922df64511380257a2b211e83.bindPopup(popup_8ebf8d4da77fccb959053f325fee6d5f)
+        ;
+
+        
+    
+    
+            var marker_bd1079777055ba6f1020fac0699f0627 = L.marker(
+                [51.591909, 0.076988],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_d615518babfe2c8449197c4c1c784227 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1fb584853de616c3bfd67b72ccf77586 = $(`<div id="html_1fb584853de616c3bfd67b72ccf77586" style="width: 100.0%; height: 100.0%;">Ilford County High School, Oxbridge pct: 2.0, Russel pct: 55.0</div>`)[0];
+                popup_d615518babfe2c8449197c4c1c784227.setContent(html_1fb584853de616c3bfd67b72ccf77586);
+            
+        
+
+        marker_bd1079777055ba6f1020fac0699f0627.bindPopup(popup_d615518babfe2c8449197c4c1c784227)
+        ;
+
+        
+    
+    
+            var marker_50be5ba25637e2c4f7557e59570e1734 = L.marker(
+                [51.456321, -0.20773],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_8af26b8b68ddb932b9f3933899355eb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62e72639fa5d36025e63ecf9b6340600 = $(`<div id="html_62e72639fa5d36025e63ecf9b6340600" style="width: 100.0%; height: 100.0%;">Ashcroft Technology Academy, Oxbridge pct: 2.0, Russel pct: 55.0</div>`)[0];
+                popup_8af26b8b68ddb932b9f3933899355eb5.setContent(html_62e72639fa5d36025e63ecf9b6340600);
+            
+        
+
+        marker_50be5ba25637e2c4f7557e59570e1734.bindPopup(popup_8af26b8b68ddb932b9f3933899355eb5)
+        ;
+
+        
+    
+    
+            var marker_3a653f5642de4b72fa9e49d211c5a67e = L.marker(
+                [51.563361, -0.307742],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_7a1fd1a89996dc9e317fc738d92eb6ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c85c88fdea39ec070e023e27f2a5c459 = $(`<div id="html_c85c88fdea39ec070e023e27f2a5c459" style="width: 100.0%; height: 100.0%;">Wembley High Technology College, Oxbridge pct: 1.0, Russel pct: 55.0</div>`)[0];
+                popup_7a1fd1a89996dc9e317fc738d92eb6ba.setContent(html_c85c88fdea39ec070e023e27f2a5c459);
+            
+        
+
+        marker_3a653f5642de4b72fa9e49d211c5a67e.bindPopup(popup_7a1fd1a89996dc9e317fc738d92eb6ba)
+        ;
+
+        
+    
+    
+            var marker_ed06b237a31fc8072609d7f9a12b1a8a = L.marker(
+                [51.065797, -1.794733],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_39afd598f308e3a93d90059e96d30990 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_087e1434cc233fe2a70b646cb62a5749 = $(`<div id="html_087e1434cc233fe2a70b646cb62a5749" style="width: 100.0%; height: 100.0%;">Bishop Wordsworth's Church of England Grammar School, Oxbridge pct: 5.0, Russel pct: 55.0</div>`)[0];
+                popup_39afd598f308e3a93d90059e96d30990.setContent(html_087e1434cc233fe2a70b646cb62a5749);
+            
+        
+
+        marker_ed06b237a31fc8072609d7f9a12b1a8a.bindPopup(popup_39afd598f308e3a93d90059e96d30990)
+        ;
+
+        
+    
+    
+            var marker_a4420e965438c264747b93c94ce6a16d = L.marker(
+                [51.812095, -0.802232],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_5f8473005bba12c912b632c88bacc365 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8a56e4b2ed6c6cd1ebd40f506348397 = $(`<div id="html_e8a56e4b2ed6c6cd1ebd40f506348397" style="width: 100.0%; height: 100.0%;">Aylesbury High School, Oxbridge pct: 3.0, Russel pct: 55.0</div>`)[0];
+                popup_5f8473005bba12c912b632c88bacc365.setContent(html_e8a56e4b2ed6c6cd1ebd40f506348397);
+            
+        
+
+        marker_a4420e965438c264747b93c94ce6a16d.bindPopup(popup_5f8473005bba12c912b632c88bacc365)
+        ;
+
+        
+    
+    
+            var marker_4dae8b57aad13eb9ae19b879d96dd9c5 = L.marker(
+                [51.493571, -0.223355],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_f0e5f654ec315a438facf3bae4c188b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ee72287025123785bf72ca04e1adcdc = $(`<div id="html_2ee72287025123785bf72ca04e1adcdc" style="width: 100.0%; height: 100.0%;">Sacred Heart High School, Oxbridge pct: 0.0, Russel pct: 54.0</div>`)[0];
+                popup_f0e5f654ec315a438facf3bae4c188b6.setContent(html_2ee72287025123785bf72ca04e1adcdc);
+            
+        
+
+        marker_4dae8b57aad13eb9ae19b879d96dd9c5.bindPopup(popup_f0e5f654ec315a438facf3bae4c188b6)
+        ;
+
+        
+    
+    
+            var marker_f74916fdddce8127f34ad98f1015a9af = L.marker(
+                [51.656397, -0.171902],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_a68630938083c026d8c56b3ac36927df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_48fc6735cc938c7971f0a7b81f59c3ef = $(`<div id="html_48fc6735cc938c7971f0a7b81f59c3ef" style="width: 100.0%; height: 100.0%;">JCoSS, Oxbridge pct: 5.0, Russel pct: 54.0</div>`)[0];
+                popup_a68630938083c026d8c56b3ac36927df.setContent(html_48fc6735cc938c7971f0a7b81f59c3ef);
+            
+        
+
+        marker_f74916fdddce8127f34ad98f1015a9af.bindPopup(popup_a68630938083c026d8c56b3ac36927df)
+        ;
+
+        
+    
+    
+            var marker_d5a0095f0b12d96b8774212443532089 = L.marker(
+                [51.872982, -2.205773],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_a47fddf6b5c0e2c3b19736a05a982e85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4410159bd07a2deb89fb5ebd235cfb9b = $(`<div id="html_4410159bd07a2deb89fb5ebd235cfb9b" style="width: 100.0%; height: 100.0%;">Sir Thomas Rich's School, Oxbridge pct: 2.0, Russel pct: 54.0</div>`)[0];
+                popup_a47fddf6b5c0e2c3b19736a05a982e85.setContent(html_4410159bd07a2deb89fb5ebd235cfb9b);
+            
+        
+
+        marker_d5a0095f0b12d96b8774212443532089.bindPopup(popup_a47fddf6b5c0e2c3b19736a05a982e85)
+        ;
+
+        
+    
+    
+            var marker_fbb9673b3d5e3d021997cc8c91539d2b = L.marker(
+                [51.993477, -0.986157],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_f9c5adda3968cec72c4d4e4beb590d25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cdfbbcbae8d880ae84cabd9d37dd55e7 = $(`<div id="html_cdfbbcbae8d880ae84cabd9d37dd55e7" style="width: 100.0%; height: 100.0%;">Royal Latin School, Oxbridge pct: 3.0, Russel pct: 54.0</div>`)[0];
+                popup_f9c5adda3968cec72c4d4e4beb590d25.setContent(html_cdfbbcbae8d880ae84cabd9d37dd55e7);
+            
+        
+
+        marker_fbb9673b3d5e3d021997cc8c91539d2b.bindPopup(popup_f9c5adda3968cec72c4d4e4beb590d25)
+        ;
+
+        
+    
+    
+            var marker_575f70ab7fb91564cc2530b5b68a1685 = L.marker(
+                [51.603925, -0.643767],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_7628431075d5c7f28c175c14f1112781 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_195580fa2fb7e085a48cba184fda4c83 = $(`<div id="html_195580fa2fb7e085a48cba184fda4c83" style="width: 100.0%; height: 100.0%;">Beaconsfield High School, Oxbridge pct: 6.0, Russel pct: 54.0</div>`)[0];
+                popup_7628431075d5c7f28c175c14f1112781.setContent(html_195580fa2fb7e085a48cba184fda4c83);
+            
+        
+
+        marker_575f70ab7fb91564cc2530b5b68a1685.bindPopup(popup_7628431075d5c7f28c175c14f1112781)
+        ;
+
+        
+    
+    
+            var marker_b8744d1163b3531da3e174c914df2d77 = L.marker(
+                [51.144791, 0.258261],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_82915991c65f43cda75d8373275f5256 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2afdf90b47a9dac60538c1636758908a = $(`<div id="html_2afdf90b47a9dac60538c1636758908a" style="width: 100.0%; height: 100.0%;">Tunbridge Wells Girls' Grammar School, Oxbridge pct: 5.0, Russel pct: 54.0</div>`)[0];
+                popup_82915991c65f43cda75d8373275f5256.setContent(html_2afdf90b47a9dac60538c1636758908a);
+            
+        
+
+        marker_b8744d1163b3531da3e174c914df2d77.bindPopup(popup_82915991c65f43cda75d8373275f5256)
+        ;
+
+        
+    
+    
+            var marker_838e7a8cf9edb145be05616a50d8c706 = L.marker(
+                [53.450548, -2.361043],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_9f6119fa533a95677ee11b93becfe282 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f089846f4e4f8a2c7f6f6d93ad1ede65 = $(`<div id="html_f089846f4e4f8a2c7f6f6d93ad1ede65" style="width: 100.0%; height: 100.0%;">Urmston Grammar Academy, Oxbridge pct: 1.0, Russel pct: 53.0</div>`)[0];
+                popup_9f6119fa533a95677ee11b93becfe282.setContent(html_f089846f4e4f8a2c7f6f6d93ad1ede65);
+            
+        
+
+        marker_838e7a8cf9edb145be05616a50d8c706.bindPopup(popup_9f6119fa533a95677ee11b93becfe282)
+        ;
+
+        
+    
+    
+            var marker_70c3c8d5a31eccac155c0ef6be912694 = L.marker(
+                [53.381694, -2.925077],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_1af7b6113f825e328501c87163cf8641 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1827fd95729c275230f577392ff2944 = $(`<div id="html_b1827fd95729c275230f577392ff2944" style="width: 100.0%; height: 100.0%;">Liverpool College, Oxbridge pct: 4.0, Russel pct: 53.0</div>`)[0];
+                popup_1af7b6113f825e328501c87163cf8641.setContent(html_b1827fd95729c275230f577392ff2944);
+            
+        
+
+        marker_70c3c8d5a31eccac155c0ef6be912694.bindPopup(popup_1af7b6113f825e328501c87163cf8641)
+        ;
+
+        
+    
+    
+            var marker_5850b20223495e23f482b6918c08d1a4 = L.marker(
+                [51.52221, -0.15217],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_464e4991fcce158e7906f0143a41b6ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf4ebe3062772b39aeeeee654199f4d0 = $(`<div id="html_bf4ebe3062772b39aeeeee654199f4d0" style="width: 100.0%; height: 100.0%;">The St Marylebone CofE School, Oxbridge pct: 4.0, Russel pct: 53.0</div>`)[0];
+                popup_464e4991fcce158e7906f0143a41b6ca.setContent(html_bf4ebe3062772b39aeeeee654199f4d0);
+            
+        
+
+        marker_5850b20223495e23f482b6918c08d1a4.bindPopup(popup_464e4991fcce158e7906f0143a41b6ca)
+        ;
+
+        
+    
+    
+            var marker_34ea9186a3cd7413a06797dd0c695d2b = L.marker(
+                [51.745407, -2.235377],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_a1bb4e943bc154e50ef1e87043495e4f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8dc28be9fa4f662dc67123de33fa8d22 = $(`<div id="html_8dc28be9fa4f662dc67123de33fa8d22" style="width: 100.0%; height: 100.0%;">Marling School, Oxbridge pct: 5.0, Russel pct: 53.0</div>`)[0];
+                popup_a1bb4e943bc154e50ef1e87043495e4f.setContent(html_8dc28be9fa4f662dc67123de33fa8d22);
+            
+        
+
+        marker_34ea9186a3cd7413a06797dd0c695d2b.bindPopup(popup_a1bb4e943bc154e50ef1e87043495e4f)
+        ;
+
+        
+    
+    
+            var marker_d5d99a0239dca28b100f698d330bd83b = L.marker(
+                [51.553827, 0.695325],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_4daf91c21e3288d7022436b26a9a16cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a415ea630349284d9379659e4ee8bd2 = $(`<div id="html_7a415ea630349284d9379659e4ee8bd2" style="width: 100.0%; height: 100.0%;">Southend High School for Boys, Oxbridge pct: 3.0, Russel pct: 52.0</div>`)[0];
+                popup_4daf91c21e3288d7022436b26a9a16cc.setContent(html_7a415ea630349284d9379659e4ee8bd2);
+            
+        
+
+        marker_d5d99a0239dca28b100f698d330bd83b.bindPopup(popup_4daf91c21e3288d7022436b26a9a16cc)
+        ;
+
+        
+    
+    
+            var marker_bed1c7469788638a60670e874489e5f9 = L.marker(
+                [52.188028, 0.135675],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_1ff125d7e14989826ec0e1e9c4f8d869 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8ed671c20cfd9ef7d397e4496e378f0 = $(`<div id="html_e8ed671c20cfd9ef7d397e4496e378f0" style="width: 100.0%; height: 100.0%;">Hills Road Sixth Form College, Oxbridge pct: 5.0, Russel pct: 52.0</div>`)[0];
+                popup_1ff125d7e14989826ec0e1e9c4f8d869.setContent(html_e8ed671c20cfd9ef7d397e4496e378f0);
+            
+        
+
+        marker_bed1c7469788638a60670e874489e5f9.bindPopup(popup_1ff125d7e14989826ec0e1e9c4f8d869)
+        ;
+
+        
+    
+    
+            var marker_949ce04ca6bf3125132b8fa08519aa56 = L.marker(
+                [52.501837, -1.923751],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_e6f4b66de8bf194e110a5c8cb7333e73 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df25535c2fdb00055500480b9376bb53 = $(`<div id="html_df25535c2fdb00055500480b9376bb53" style="width: 100.0%; height: 100.0%;">King Edward VI Handsworth School, Oxbridge pct: 3.0, Russel pct: 52.0</div>`)[0];
+                popup_e6f4b66de8bf194e110a5c8cb7333e73.setContent(html_df25535c2fdb00055500480b9376bb53);
+            
+        
+
+        marker_949ce04ca6bf3125132b8fa08519aa56.bindPopup(popup_e6f4b66de8bf194e110a5c8cb7333e73)
+        ;
+
+        
+    
+    
+            var marker_c21f06b4ba9464c0f410a7454936990f = L.marker(
+                [52.591019, -2.155865],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_6a6e7d1c8d5fe2715d36bd9d70e8d1f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13176bf8db07e8cf714988f42dc5f5c5 = $(`<div id="html_13176bf8db07e8cf714988f42dc5f5c5" style="width: 100.0%; height: 100.0%;">Wolverhampton Girls' High School, Oxbridge pct: 2.0, Russel pct: 52.0</div>`)[0];
+                popup_6a6e7d1c8d5fe2715d36bd9d70e8d1f5.setContent(html_13176bf8db07e8cf714988f42dc5f5c5);
+            
+        
+
+        marker_c21f06b4ba9464c0f410a7454936990f.bindPopup(popup_6a6e7d1c8d5fe2715d36bd9d70e8d1f5)
+        ;
+
+        
+    
+    
+            var marker_5d798308a53f7d0c13679481070b9a65 = L.marker(
+                [52.589798, -1.975911],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_e34601ee978a70218b86ac3d54f9c3af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad8f8c27bb653051129a71369ff06fd2 = $(`<div id="html_ad8f8c27bb653051129a71369ff06fd2" style="width: 100.0%; height: 100.0%;">Queen Mary's High School, Oxbridge pct: 4.0, Russel pct: 52.0</div>`)[0];
+                popup_e34601ee978a70218b86ac3d54f9c3af.setContent(html_ad8f8c27bb653051129a71369ff06fd2);
+            
+        
+
+        marker_5d798308a53f7d0c13679481070b9a65.bindPopup(popup_e34601ee978a70218b86ac3d54f9c3af)
+        ;
+
+        
+    
+    
+            var marker_e698bf2ea196d8cfea2a051186bc739f = L.marker(
+                [51.611477, -0.168796],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_178223f26880e338214880e637864355 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e69fbe5d3fcf8528c5f362863f62e7a = $(`<div id="html_1e69fbe5d3fcf8528c5f362863f62e7a" style="width: 100.0%; height: 100.0%;">Woodhouse College, Oxbridge pct: 3.0, Russel pct: 52.0</div>`)[0];
+                popup_178223f26880e338214880e637864355.setContent(html_1e69fbe5d3fcf8528c5f362863f62e7a);
+            
+        
+
+        marker_e698bf2ea196d8cfea2a051186bc739f.bindPopup(popup_178223f26880e338214880e637864355)
+        ;
+
+        
+    
+    
+            var marker_b2792ea63cc0b6f3501603d4cf935536 = L.marker(
+                [51.484014, -0.728322],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_573e72d970dca3e1b035e76274f9048d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b5804d6276daa8b6896419ce6e0f7c3 = $(`<div id="html_4b5804d6276daa8b6896419ce6e0f7c3" style="width: 100.0%; height: 100.0%;">Holyport College, Oxbridge pct: 4.0, Russel pct: 52.0</div>`)[0];
+                popup_573e72d970dca3e1b035e76274f9048d.setContent(html_4b5804d6276daa8b6896419ce6e0f7c3);
+            
+        
+
+        marker_b2792ea63cc0b6f3501603d4cf935536.bindPopup(popup_573e72d970dca3e1b035e76274f9048d)
+        ;
+
+        
+    
+    
+            var marker_affdec5d58044c5cb215dd61ba161541 = L.marker(
+                [50.477041, -3.55349],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_ddbf7570c6f8f0aaa44fb451b5027b05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c47c8d6721340256fcafbf60ae4e0fa = $(`<div id="html_1c47c8d6721340256fcafbf60ae4e0fa" style="width: 100.0%; height: 100.0%;">Torquay Girls Grammar School, Oxbridge pct: 3.0, Russel pct: 51.0</div>`)[0];
+                popup_ddbf7570c6f8f0aaa44fb451b5027b05.setContent(html_1c47c8d6721340256fcafbf60ae4e0fa);
+            
+        
+
+        marker_affdec5d58044c5cb215dd61ba161541.bindPopup(popup_ddbf7570c6f8f0aaa44fb451b5027b05)
+        ;
+
+        
+    
+    
+            var marker_8240f3f03a2e422312b8829d9ef94841 = L.marker(
+                [51.612667, -0.168218],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_c1f2c43874b80ee5d269e4791a8e70bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_94b5133d3df43a154681e204b69fa7aa = $(`<div id="html_94b5133d3df43a154681e204b69fa7aa" style="width: 100.0%; height: 100.0%;">Wren Academy Finchley, Oxbridge pct: 0.0, Russel pct: 51.0</div>`)[0];
+                popup_c1f2c43874b80ee5d269e4791a8e70bc.setContent(html_94b5133d3df43a154681e204b69fa7aa);
+            
+        
+
+        marker_8240f3f03a2e422312b8829d9ef94841.bindPopup(popup_c1f2c43874b80ee5d269e4791a8e70bc)
+        ;
+
+        
+    
+    
+            var marker_e1b345b6aac127dd82150fbe3e521ce7 = L.marker(
+                [53.389953, -3.048212],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_a76d7d47608c3df958cf21b191188952 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb27d66453da6a7e92d250f846ce9f7b = $(`<div id="html_bb27d66453da6a7e92d250f846ce9f7b" style="width: 100.0%; height: 100.0%;">St Anselm's College, Oxbridge pct: 0.0, Russel pct: 51.0</div>`)[0];
+                popup_a76d7d47608c3df958cf21b191188952.setContent(html_bb27d66453da6a7e92d250f846ce9f7b);
+            
+        
+
+        marker_e1b345b6aac127dd82150fbe3e521ce7.bindPopup(popup_a76d7d47608c3df958cf21b191188952)
+        ;
+
+        
+    
+    
+            var marker_cd65db061a5bffb6149831ea6d59b240 = L.marker(
+                [52.578538, -1.966984],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_01dde813fd240c4ec1215779056c1bef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e009e36ff28c7455ea596b183bed35fa = $(`<div id="html_e009e36ff28c7455ea596b183bed35fa" style="width: 100.0%; height: 100.0%;">Queen Mary's Grammar School, Oxbridge pct: 1.0, Russel pct: 51.0</div>`)[0];
+                popup_01dde813fd240c4ec1215779056c1bef.setContent(html_e009e36ff28c7455ea596b183bed35fa);
+            
+        
+
+        marker_cd65db061a5bffb6149831ea6d59b240.bindPopup(popup_01dde813fd240c4ec1215779056c1bef)
+        ;
+
+        
+    
+    
+            var marker_f3d067c7acc1461d9f22a5d1d5fab6b0 = L.marker(
+                [51.770763, -0.307831],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_70857f88f079c05efaa11b521bb06122 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_baac07e14ad6eed710ed71c0bd7f5b8c = $(`<div id="html_baac07e14ad6eed710ed71c0bd7f5b8c" style="width: 100.0%; height: 100.0%;">Sandringham School, Oxbridge pct: 2.0, Russel pct: 50.0</div>`)[0];
+                popup_70857f88f079c05efaa11b521bb06122.setContent(html_baac07e14ad6eed710ed71c0bd7f5b8c);
+            
+        
+
+        marker_f3d067c7acc1461d9f22a5d1d5fab6b0.bindPopup(popup_70857f88f079c05efaa11b521bb06122)
+        ;
+
+        
+    
+    
+            var marker_c9d2ef9778ab5abbcc0af8b3e4143674 = L.marker(
+                [52.927795, -1.154571],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_14f507459727bef4b050f83b1ed7d51c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b11368bba4b31831e180e8091e377bf0 = $(`<div id="html_b11368bba4b31831e180e8091e377bf0" style="width: 100.0%; height: 100.0%;">The Becket School, Oxbridge pct: 4.0, Russel pct: 50.0</div>`)[0];
+                popup_14f507459727bef4b050f83b1ed7d51c.setContent(html_b11368bba4b31831e180e8091e377bf0);
+            
+        
+
+        marker_c9d2ef9778ab5abbcc0af8b3e4143674.bindPopup(popup_14f507459727bef4b050f83b1ed7d51c)
+        ;
+
+        
+    
+    
+            var marker_5abed114530845abcbeec67f4eb5291f = L.marker(
+                [53.936336, -1.066918],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_de0aed7c600c3a2b6249ed1ac728b4ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b809eb8b45c13bc0dc1393cdc01694b7 = $(`<div id="html_b809eb8b45c13bc0dc1393cdc01694b7" style="width: 100.0%; height: 100.0%;">Fulford School, Oxbridge pct: 3.0, Russel pct: 50.0</div>`)[0];
+                popup_de0aed7c600c3a2b6249ed1ac728b4ab.setContent(html_b809eb8b45c13bc0dc1393cdc01694b7);
+            
+        
+
+        marker_5abed114530845abcbeec67f4eb5291f.bindPopup(popup_de0aed7c600c3a2b6249ed1ac728b4ab)
+        ;
+
+        
+    
+    
+            var marker_9bfad91cba4f463cfea3202d0c334319 = L.marker(
+                [51.451211, -2.600784],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_83491ce61822f3b1396d8e042c68a038 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2b77a49a46ccc23ad32011bf5303c85 = $(`<div id="html_e2b77a49a46ccc23ad32011bf5303c85" style="width: 100.0%; height: 100.0%;">Bristol Cathedral Choir School, Oxbridge pct: 2.0, Russel pct: 50.0</div>`)[0];
+                popup_83491ce61822f3b1396d8e042c68a038.setContent(html_e2b77a49a46ccc23ad32011bf5303c85);
+            
+        
+
+        marker_9bfad91cba4f463cfea3202d0c334319.bindPopup(popup_83491ce61822f3b1396d8e042c68a038)
+        ;
+
+        
+    
+    
+            var marker_f4702839017e7bd28ea54d492c8c5755 = L.marker(
+                [51.551484, -0.062679],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_60566cf06b859dff124a4c479d13e4cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c1a9d34bfa4a41dd682939134b42e59 = $(`<div id="html_8c1a9d34bfa4a41dd682939134b42e59" style="width: 100.0%; height: 100.0%;">Mossbourne Community Academy, Oxbridge pct: 7.0, Russel pct: 50.0</div>`)[0];
+                popup_60566cf06b859dff124a4c479d13e4cb.setContent(html_8c1a9d34bfa4a41dd682939134b42e59);
+            
+        
+
+        marker_f4702839017e7bd28ea54d492c8c5755.bindPopup(popup_60566cf06b859dff124a4c479d13e4cb)
+        ;
+
+        
+    
+    
+            var marker_41ec500fe20a742472978a63d532deca = L.marker(
+                [52.763227, -2.381203],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_79f8865088c33e161cdd24451055acc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87df19215bb95318f5d130ba74f37a3d = $(`<div id="html_87df19215bb95318f5d130ba74f37a3d" style="width: 100.0%; height: 100.0%;">Newport Girls' High School Academy, Oxbridge pct: 4.0, Russel pct: 50.0</div>`)[0];
+                popup_79f8865088c33e161cdd24451055acc7.setContent(html_87df19215bb95318f5d130ba74f37a3d);
+            
+        
+
+        marker_41ec500fe20a742472978a63d532deca.bindPopup(popup_79f8865088c33e161cdd24451055acc7)
+        ;
+
+        
+    
+    
+            var marker_e005791d114ab898d25ec495723e755f = L.marker(
+                [51.746051, -2.232759],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_146de755cf6be5b12179483644b27bf5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47caa8cece1d89e3f4c9840443c83ac8 = $(`<div id="html_47caa8cece1d89e3f4c9840443c83ac8" style="width: 100.0%; height: 100.0%;">Stroud High School, Oxbridge pct: 2.0, Russel pct: 50.0</div>`)[0];
+                popup_146de755cf6be5b12179483644b27bf5.setContent(html_47caa8cece1d89e3f4c9840443c83ac8);
+            
+        
+
+        marker_e005791d114ab898d25ec495723e755f.bindPopup(popup_146de755cf6be5b12179483644b27bf5)
+        ;
+
+        
+    
+    
+            var marker_c50ef0348ac6f598dea42d06e3641114 = L.marker(
+                [51.184129, 0.280446],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_049792423c183ec277ce4e5db5b5d82e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_702d5d5158148fe351ec09d125173c68 = $(`<div id="html_702d5d5158148fe351ec09d125173c68" style="width: 100.0%; height: 100.0%;">Weald of Kent Grammar School, Oxbridge pct: 3.0, Russel pct: 49.0</div>`)[0];
+                popup_049792423c183ec277ce4e5db5b5d82e.setContent(html_702d5d5158148fe351ec09d125173c68);
+            
+        
+
+        marker_c50ef0348ac6f598dea42d06e3641114.bindPopup(popup_049792423c183ec277ce4e5db5b5d82e)
+        ;
+
+        
+    
+    
+            var marker_94a0aab6e92cf72cd09aa29ad02ac4de = L.marker(
+                [53.375363, -1.522136],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_7415d7235d4af5e7e65b625156678642 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17943d7fdf341af7e6ec77a852b737ed = $(`<div id="html_17943d7fdf341af7e6ec77a852b737ed" style="width: 100.0%; height: 100.0%;">Tapton School, Oxbridge pct: 4.0, Russel pct: 49.0</div>`)[0];
+                popup_7415d7235d4af5e7e65b625156678642.setContent(html_17943d7fdf341af7e6ec77a852b737ed);
+            
+        
+
+        marker_94a0aab6e92cf72cd09aa29ad02ac4de.bindPopup(popup_7415d7235d4af5e7e65b625156678642)
+        ;
+
+        
+    
+    
+            var marker_6bc11cf974d7b1d0086c1dede6dab1a7 = L.marker(
+                [51.708834, -0.600223],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_62dceea62001d3d47073170bb3e368a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2557222edf67d923993e8f1661ed0f2c = $(`<div id="html_2557222edf67d923993e8f1661ed0f2c" style="width: 100.0%; height: 100.0%;">Chesham Grammar School, Oxbridge pct: 3.0, Russel pct: 49.0</div>`)[0];
+                popup_62dceea62001d3d47073170bb3e368a8.setContent(html_2557222edf67d923993e8f1661ed0f2c);
+            
+        
+
+        marker_6bc11cf974d7b1d0086c1dede6dab1a7.bindPopup(popup_62dceea62001d3d47073170bb3e368a8)
+        ;
+
+        
+    
+    
+            var marker_0f0936389bd8d6dc104f83d5a79fc2f6 = L.marker(
+                [51.523391, -0.009497],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_284e155eb10806860435d7bbc61ec196 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0d8bbfdf8c5f8e4f461f098e014aef4 = $(`<div id="html_c0d8bbfdf8c5f8e4f461f098e014aef4" style="width: 100.0%; height: 100.0%;">Bow School, Oxbridge pct: 6.0, Russel pct: 48.0</div>`)[0];
+                popup_284e155eb10806860435d7bbc61ec196.setContent(html_c0d8bbfdf8c5f8e4f461f098e014aef4);
+            
+        
+
+        marker_0f0936389bd8d6dc104f83d5a79fc2f6.bindPopup(popup_284e155eb10806860435d7bbc61ec196)
+        ;
+
+        
+    
+    
+            var marker_8cd9a092bb26d4b279469babbd9c09b1 = L.marker(
+                [51.81329, -0.82354],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_dd528ba13dec2c8f1ec0d600446cc689 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9771cd1cfff7aa8d56efd66b0f0c9764 = $(`<div id="html_9771cd1cfff7aa8d56efd66b0f0c9764" style="width: 100.0%; height: 100.0%;">Sir Henry Floyd Grammar School, Oxbridge pct: 4.0, Russel pct: 48.0</div>`)[0];
+                popup_dd528ba13dec2c8f1ec0d600446cc689.setContent(html_9771cd1cfff7aa8d56efd66b0f0c9764);
+            
+        
+
+        marker_8cd9a092bb26d4b279469babbd9c09b1.bindPopup(popup_dd528ba13dec2c8f1ec0d600446cc689)
+        ;
+
+        
+    
+    
+            var marker_f224e2acea30dcdf3061a8fd9a82ec96 = L.marker(
+                [51.496032, -0.134529],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_a8f6a98f20f68fd73bb962696a033751 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8c5348b2cf5ffab19b27fd90442ff82 = $(`<div id="html_f8c5348b2cf5ffab19b27fd90442ff82" style="width: 100.0%; height: 100.0%;">The Grey Coat Hospital, Oxbridge pct: 8.0, Russel pct: 48.0</div>`)[0];
+                popup_a8f6a98f20f68fd73bb962696a033751.setContent(html_f8c5348b2cf5ffab19b27fd90442ff82);
+            
+        
+
+        marker_f224e2acea30dcdf3061a8fd9a82ec96.bindPopup(popup_a8f6a98f20f68fd73bb962696a033751)
+        ;
+
+        
+    
+    
+            var marker_e949233ca9b3ab94ad3d43af652e1ca7 = L.marker(
+                [51.439431, -0.350996],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_6c06b82b86e83f5a9b5ea2a2ee494295 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e38bf3b2c49f5622251e1a0cbbaaa1f5 = $(`<div id="html_e38bf3b2c49f5622251e1a0cbbaaa1f5" style="width: 100.0%; height: 100.0%;">Waldegrave School, Oxbridge pct: 3.0, Russel pct: 48.0</div>`)[0];
+                popup_6c06b82b86e83f5a9b5ea2a2ee494295.setContent(html_e38bf3b2c49f5622251e1a0cbbaaa1f5);
+            
+        
+
+        marker_e949233ca9b3ab94ad3d43af652e1ca7.bindPopup(popup_6c06b82b86e83f5a9b5ea2a2ee494295)
+        ;
+
+        
+    
+    
+            var marker_da4aa0a2aaac45d37688f84911a932e6 = L.marker(
+                [51.547651, -0.109763],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_33cfdc7f6037050dcf16ce51d1cb2f4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_185cfbc1eecd6ea1e8c25b6f138ff4b7 = $(`<div id="html_185cfbc1eecd6ea1e8c25b6f138ff4b7" style="width: 100.0%; height: 100.0%;">St Mary Magdalene Academy, Oxbridge pct: 3.0, Russel pct: 47.0</div>`)[0];
+                popup_33cfdc7f6037050dcf16ce51d1cb2f4b.setContent(html_185cfbc1eecd6ea1e8c25b6f138ff4b7);
+            
+        
+
+        marker_da4aa0a2aaac45d37688f84911a932e6.bindPopup(popup_33cfdc7f6037050dcf16ce51d1cb2f4b)
+        ;
+
+        
+    
+    
+            var marker_1f7fdf869d98066e2eaf7950d252f5b2 = L.marker(
+                [53.411755, -0.777708],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_e0de532db87ce139e1b8ca2b0dfa1195 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee197f8516aa7a4cab51da541820de99 = $(`<div id="html_ee197f8516aa7a4cab51da541820de99" style="width: 100.0%; height: 100.0%;">The Queen Elizabeth's High School, Gainsborough, Oxbridge pct: 5.0, Russel pct: 47.0</div>`)[0];
+                popup_e0de532db87ce139e1b8ca2b0dfa1195.setContent(html_ee197f8516aa7a4cab51da541820de99);
+            
+        
+
+        marker_1f7fdf869d98066e2eaf7950d252f5b2.bindPopup(popup_e0de532db87ce139e1b8ca2b0dfa1195)
+        ;
+
+        
+    
+    
+            var marker_a9bfcdc319c8c13b1905b2a0d27b00dd = L.marker(
+                [53.951396, -1.094659],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_027da8a894df03f1c83aa03288e1d38d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0247c056f74fe890af3e0bf268df8522 = $(`<div id="html_0247c056f74fe890af3e0bf268df8522" style="width: 100.0%; height: 100.0%;">All Saints RC School, Oxbridge pct: 6.0, Russel pct: 47.0</div>`)[0];
+                popup_027da8a894df03f1c83aa03288e1d38d.setContent(html_0247c056f74fe890af3e0bf268df8522);
+            
+        
+
+        marker_a9bfcdc319c8c13b1905b2a0d27b00dd.bindPopup(popup_027da8a894df03f1c83aa03288e1d38d)
+        ;
+
+        
+    
+    
+            var marker_0a0294338ffcd7a888b18ec153c23be3 = L.marker(
+                [51.518921, -0.229892],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_8b8ccdd02f5ce5e3909b3a9fa04d80f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8c8a5a2c20af642458500f951632fec = $(`<div id="html_f8c8a5a2c20af642458500f951632fec" style="width: 100.0%; height: 100.0%;">Ark Burlington Danes Academy, Oxbridge pct: 3.0, Russel pct: 47.0</div>`)[0];
+                popup_8b8ccdd02f5ce5e3909b3a9fa04d80f1.setContent(html_f8c8a5a2c20af642458500f951632fec);
+            
+        
+
+        marker_0a0294338ffcd7a888b18ec153c23be3.bindPopup(popup_8b8ccdd02f5ce5e3909b3a9fa04d80f1)
+        ;
+
+        
+    
+    
+            var marker_74c2c733a2548c604ebabbefd050cd56 = L.marker(
+                [53.496569, -0.320237],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_541f9cf05e3bbefcc86715ac8d0f23b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6832fb7d3fc9cb1d4beff2c023c6c797 = $(`<div id="html_6832fb7d3fc9cb1d4beff2c023c6c797" style="width: 100.0%; height: 100.0%;">Caistor Grammar School, Oxbridge pct: 7.0, Russel pct: 47.0</div>`)[0];
+                popup_541f9cf05e3bbefcc86715ac8d0f23b0.setContent(html_6832fb7d3fc9cb1d4beff2c023c6c797);
+            
+        
+
+        marker_74c2c733a2548c604ebabbefd050cd56.bindPopup(popup_541f9cf05e3bbefcc86715ac8d0f23b0)
+        ;
+
+        
+    
+    
+            var marker_349de1b9e02e92e6d0bb97ae5bd5e3a6 = L.marker(
+                [53.351962, -1.528091],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_32382b24c6b56170bc7a39478f1b6866 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa647266025d7e6619100041f102df11 = $(`<div id="html_fa647266025d7e6619100041f102df11" style="width: 100.0%; height: 100.0%;">Silverdale School, Oxbridge pct: 2.0, Russel pct: 47.0</div>`)[0];
+                popup_32382b24c6b56170bc7a39478f1b6866.setContent(html_fa647266025d7e6619100041f102df11);
+            
+        
+
+        marker_349de1b9e02e92e6d0bb97ae5bd5e3a6.bindPopup(popup_32382b24c6b56170bc7a39478f1b6866)
+        ;
+
+        
+    
+    
+            var marker_4c6dc83846506390596020e766f068b2 = L.marker(
+                [51.599489, -0.02444],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_33725bc95c76c147e8eb232accc2c0a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf73b56869468a5576c3c0819c9c0b9c = $(`<div id="html_bf73b56869468a5576c3c0819c9c0b9c" style="width: 100.0%; height: 100.0%;">Walthamstow Academy, Oxbridge pct: 0.0, Russel pct: 47.0</div>`)[0];
+                popup_33725bc95c76c147e8eb232accc2c0a8.setContent(html_bf73b56869468a5576c3c0819c9c0b9c);
+            
+        
+
+        marker_4c6dc83846506390596020e766f068b2.bindPopup(popup_33725bc95c76c147e8eb232accc2c0a8)
+        ;
+
+        
+    
+    
+            var marker_25379737fe00c803b1b90fe1ba5171ae = L.marker(
+                [51.492874, -0.236736],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_cff5c4e2686b65451f1bca043d432c4e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e68fe6f9d550b88f48007a313cc7a70 = $(`<div id="html_1e68fe6f9d550b88f48007a313cc7a70" style="width: 100.0%; height: 100.0%;">West London Free School, Oxbridge pct: 7.0, Russel pct: 47.0</div>`)[0];
+                popup_cff5c4e2686b65451f1bca043d432c4e.setContent(html_1e68fe6f9d550b88f48007a313cc7a70);
+            
+        
+
+        marker_25379737fe00c803b1b90fe1ba5171ae.bindPopup(popup_cff5c4e2686b65451f1bca043d432c4e)
+        ;
+
+        
+    
+    
+            var marker_e78956b5be3408b66ea888f9a1cd4b6c = L.marker(
+                [53.84665, -0.430553],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_82c0e39cdc6d0431529f6b6f4e39256a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9d8abc5e680d8e4cdf8c42f658d9619 = $(`<div id="html_c9d8abc5e680d8e4cdf8c42f658d9619" style="width: 100.0%; height: 100.0%;">Beverley High School, Oxbridge pct: 3.0, Russel pct: 47.0</div>`)[0];
+                popup_82c0e39cdc6d0431529f6b6f4e39256a.setContent(html_c9d8abc5e680d8e4cdf8c42f658d9619);
+            
+        
+
+        marker_e78956b5be3408b66ea888f9a1cd4b6c.bindPopup(popup_82c0e39cdc6d0431529f6b6f4e39256a)
+        ;
+
+        
+    
+    
+            var marker_1c0124cc79b6f43beabd619ca51f7e22 = L.marker(
+                [51.456411, -0.089292],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_91df020d3abc8e748a316349c2200a9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_362a9df10d3c8d56cbbcdb1d25b260e7 = $(`<div id="html_362a9df10d3c8d56cbbcdb1d25b260e7" style="width: 100.0%; height: 100.0%;">The Charter School North Dulwich, Oxbridge pct: 2.0, Russel pct: 47.0</div>`)[0];
+                popup_91df020d3abc8e748a316349c2200a9d.setContent(html_362a9df10d3c8d56cbbcdb1d25b260e7);
+            
+        
+
+        marker_1c0124cc79b6f43beabd619ca51f7e22.bindPopup(popup_91df020d3abc8e748a316349c2200a9d)
+        ;
+
+        
+    
+    
+            var marker_561d71cf51d1c16c8d7639c39124f730 = L.marker(
+                [52.917253, -1.123526],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_b1d053547e3a4214ee712f7b1d2301a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b73379801e1253de74abcfc6a1d29d8 = $(`<div id="html_3b73379801e1253de74abcfc6a1d29d8" style="width: 100.0%; height: 100.0%;">Rushcliffe Spencer Academy, Oxbridge pct: 3.0, Russel pct: 47.0</div>`)[0];
+                popup_b1d053547e3a4214ee712f7b1d2301a9.setContent(html_3b73379801e1253de74abcfc6a1d29d8);
+            
+        
+
+        marker_561d71cf51d1c16c8d7639c39124f730.bindPopup(popup_b1d053547e3a4214ee712f7b1d2301a9)
+        ;
+
+        
+    
+    
+            var marker_f58582580ab40eb81c3b1133b3be7e1e = L.marker(
+                [53.711648, -1.878151],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_4ec3a704e5959c275ce02b8cb592648e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ec79a620d5bac3276d7304d2ead9a4f = $(`<div id="html_9ec79a620d5bac3276d7304d2ead9a4f" style="width: 100.0%; height: 100.0%;">The Crossley Heath School, Oxbridge pct: 3.0, Russel pct: 47.0</div>`)[0];
+                popup_4ec3a704e5959c275ce02b8cb592648e.setContent(html_9ec79a620d5bac3276d7304d2ead9a4f);
+            
+        
+
+        marker_f58582580ab40eb81c3b1133b3be7e1e.bindPopup(popup_4ec3a704e5959c275ce02b8cb592648e)
+        ;
+
+        
+    
+    
+            var marker_5c259bbf79a967b88d23da5dc41b1420 = L.marker(
+                [51.822047, -0.353633],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_ae0c5efb056bc83dc4a203d6c9a062c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15c440eeca7bce00eab2c98535d87e30 = $(`<div id="html_15c440eeca7bce00eab2c98535d87e30" style="width: 100.0%; height: 100.0%;">St George's School, Oxbridge pct: 4.0, Russel pct: 47.0</div>`)[0];
+                popup_ae0c5efb056bc83dc4a203d6c9a062c5.setContent(html_15c440eeca7bce00eab2c98535d87e30);
+            
+        
+
+        marker_5c259bbf79a967b88d23da5dc41b1420.bindPopup(popup_ae0c5efb056bc83dc4a203d6c9a062c5)
+        ;
+
+        
+    
+    
+            var marker_f7ef706d64911767485e184fe726f6c0 = L.marker(
+                [51.364655, -0.465198],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_a7c1c546672a6af15c4a92d6f8a17450 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad27b2a19b52f91996f718ecd4dc5e8a = $(`<div id="html_ad27b2a19b52f91996f718ecd4dc5e8a" style="width: 100.0%; height: 100.0%;">Heathside School, Oxbridge pct: 2.0, Russel pct: 46.0</div>`)[0];
+                popup_a7c1c546672a6af15c4a92d6f8a17450.setContent(html_ad27b2a19b52f91996f718ecd4dc5e8a);
+            
+        
+
+        marker_f7ef706d64911767485e184fe726f6c0.bindPopup(popup_a7c1c546672a6af15c4a92d6f8a17450)
+        ;
+
+        
+    
+    
+            var marker_2cc795ed670b26078ee7afa7c8dddcea = L.marker(
+                [52.371265, -1.255141],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_dde570c9a2cac12740a03e97f09aaf68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12bcb34ce2f649879c360320b549c372 = $(`<div id="html_12bcb34ce2f649879c360320b549c372" style="width: 100.0%; height: 100.0%;">Lawrence Sheriff School, Oxbridge pct: 1.0, Russel pct: 46.0</div>`)[0];
+                popup_dde570c9a2cac12740a03e97f09aaf68.setContent(html_12bcb34ce2f649879c360320b549c372);
+            
+        
+
+        marker_2cc795ed670b26078ee7afa7c8dddcea.bindPopup(popup_dde570c9a2cac12740a03e97f09aaf68)
+        ;
+
+        
+    
+    
+            var marker_d217a9af6e095550c2fbe2cf73eae33e = L.marker(
+                [51.618498, -0.764984],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_d176b5d7b654ee37aaccc33a6472ab92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac16513949052b707720c1ee9aafc2cb = $(`<div id="html_ac16513949052b707720c1ee9aafc2cb" style="width: 100.0%; height: 100.0%;">Wycombe High School, Oxbridge pct: 3.0, Russel pct: 46.0</div>`)[0];
+                popup_d176b5d7b654ee37aaccc33a6472ab92.setContent(html_ac16513949052b707720c1ee9aafc2cb);
+            
+        
+
+        marker_d217a9af6e095550c2fbe2cf73eae33e.bindPopup(popup_d176b5d7b654ee37aaccc33a6472ab92)
+        ;
+
+        
+    
+    
+            var marker_404ee1ce33b42111c179be53adc9df2c = L.marker(
+                [52.404546, -1.793979],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_99a90d9421691755105d85ab688dfbdc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_873eaa2e3bd8c957afe27f61c29e905f = $(`<div id="html_873eaa2e3bd8c957afe27f61c29e905f" style="width: 100.0%; height: 100.0%;">Tudor Grange Academy, Solihull, Oxbridge pct: 1.0, Russel pct: 46.0</div>`)[0];
+                popup_99a90d9421691755105d85ab688dfbdc.setContent(html_873eaa2e3bd8c957afe27f61c29e905f);
+            
+        
+
+        marker_404ee1ce33b42111c179be53adc9df2c.bindPopup(popup_99a90d9421691755105d85ab688dfbdc)
+        ;
+
+        
+    
+    
+            var marker_451197cd518047da33fdba4bfd1b037d = L.marker(
+                [51.552409, 0.667702],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_9949fd505b1593dfbabd7cf2feadd2b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15cb22d71b22ea85054cc588839f780f = $(`<div id="html_15cb22d71b22ea85054cc588839f780f" style="width: 100.0%; height: 100.0%;">Westcliff High School for Girls, Oxbridge pct: 4.0, Russel pct: 46.0</div>`)[0];
+                popup_9949fd505b1593dfbabd7cf2feadd2b4.setContent(html_15cb22d71b22ea85054cc588839f780f);
+            
+        
+
+        marker_451197cd518047da33fdba4bfd1b037d.bindPopup(popup_9949fd505b1593dfbabd7cf2feadd2b4)
+        ;
+
+        
+    
+    
+            var marker_5d69a9e9e0e6a21b2aa7aece89f1ff2d = L.marker(
+                [52.581682, -0.239002],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_986cc2ce4116415edefd03cea3fcbfa7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73b42bae428c9d0fc9f21667ae03060b = $(`<div id="html_73b42bae428c9d0fc9f21667ae03060b" style="width: 100.0%; height: 100.0%;">The King's (The Cathedral) School, Oxbridge pct: 3.0, Russel pct: 46.0</div>`)[0];
+                popup_986cc2ce4116415edefd03cea3fcbfa7.setContent(html_73b42bae428c9d0fc9f21667ae03060b);
+            
+        
+
+        marker_5d69a9e9e0e6a21b2aa7aece89f1ff2d.bindPopup(popup_986cc2ce4116415edefd03cea3fcbfa7)
+        ;
+
+        
+    
+    
+            var marker_48330daca302c131711548b2aa01c828 = L.marker(
+                [51.079707, -1.799197],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_365c7978e73409e79bcb34f571eddf98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14e910bb262dc1ddd97da83ea8fbc596 = $(`<div id="html_14e910bb262dc1ddd97da83ea8fbc596" style="width: 100.0%; height: 100.0%;">South Wilts Grammar School, Oxbridge pct: 7.0, Russel pct: 46.0</div>`)[0];
+                popup_365c7978e73409e79bcb34f571eddf98.setContent(html_14e910bb262dc1ddd97da83ea8fbc596);
+            
+        
+
+        marker_48330daca302c131711548b2aa01c828.bindPopup(popup_365c7978e73409e79bcb34f571eddf98)
+        ;
+
+        
+    
+    
+            var marker_cf57790831c2fd2f5c0cbf2b536f99db = L.marker(
+                [53.520734, -0.080918],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_086362fde3bd3a72e4449940d4766aab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ae97aa8cd2ddefb9ddee49346683885 = $(`<div id="html_4ae97aa8cd2ddefb9ddee49346683885" style="width: 100.0%; height: 100.0%;">Waltham Toll Bar Academy, Oxbridge pct: 1.0, Russel pct: 46.0</div>`)[0];
+                popup_086362fde3bd3a72e4449940d4766aab.setContent(html_4ae97aa8cd2ddefb9ddee49346683885);
+            
+        
+
+        marker_cf57790831c2fd2f5c0cbf2b536f99db.bindPopup(popup_086362fde3bd3a72e4449940d4766aab)
+        ;
+
+        
+    
+    
+            var marker_ff3cb26b825da7b80eb3e3bf9c2bd8e0 = L.marker(
+                [52.917851, -1.136917],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_b3f45506e74d602f7bacb4557213f948 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06a8c01dfea91a89921ed1006d43f67d = $(`<div id="html_06a8c01dfea91a89921ed1006d43f67d" style="width: 100.0%; height: 100.0%;">The West Bridgford School, Oxbridge pct: 4.0, Russel pct: 46.0</div>`)[0];
+                popup_b3f45506e74d602f7bacb4557213f948.setContent(html_06a8c01dfea91a89921ed1006d43f67d);
+            
+        
+
+        marker_ff3cb26b825da7b80eb3e3bf9c2bd8e0.bindPopup(popup_b3f45506e74d602f7bacb4557213f948)
+        ;
+
+        
+    
+    
+            var marker_0c809646585503d39d66bb4ae3d1e212 = L.marker(
+                [51.632689, -0.136181],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_fb1efa59d3c855f6aed22a1e35ed9f2d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4520432523788bd03a952b2caaaaae94 = $(`<div id="html_4520432523788bd03a952b2caaaaae94" style="width: 100.0%; height: 100.0%;">Ashmole Academy, Oxbridge pct: 0.0, Russel pct: 46.0</div>`)[0];
+                popup_fb1efa59d3c855f6aed22a1e35ed9f2d.setContent(html_4520432523788bd03a952b2caaaaae94);
+            
+        
+
+        marker_0c809646585503d39d66bb4ae3d1e212.bindPopup(popup_fb1efa59d3c855f6aed22a1e35ed9f2d)
+        ;
+
+        
+    
+    
+            var marker_be956dbb628194c90c1800e1ef162fd0 = L.marker(
+                [51.603683, -0.2335],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_0bd4ea535fb55ea95a8e2d36decfd06e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6833a9bd56c094fd50512b3b8fa7a8b5 = $(`<div id="html_6833a9bd56c094fd50512b3b8fa7a8b5" style="width: 100.0%; height: 100.0%;">Hasmonean High School for Girls, Oxbridge pct: 4.0, Russel pct: 45.0</div>`)[0];
+                popup_0bd4ea535fb55ea95a8e2d36decfd06e.setContent(html_6833a9bd56c094fd50512b3b8fa7a8b5);
+            
+        
+
+        marker_be956dbb628194c90c1800e1ef162fd0.bindPopup(popup_0bd4ea535fb55ea95a8e2d36decfd06e)
+        ;
+
+        
+    
+    
+            var marker_9c3d4a417999306bf36027a35442fb62 = L.marker(
+                [53.963808, -2.027338],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_93d83bcbb6a4fac70ee84b5e6de7d282 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d5b64a8b2bd74ea06ff661dcb701604 = $(`<div id="html_0d5b64a8b2bd74ea06ff661dcb701604" style="width: 100.0%; height: 100.0%;">Skipton Girls' High School, Oxbridge pct: 5.0, Russel pct: 45.0</div>`)[0];
+                popup_93d83bcbb6a4fac70ee84b5e6de7d282.setContent(html_0d5b64a8b2bd74ea06ff661dcb701604);
+            
+        
+
+        marker_9c3d4a417999306bf36027a35442fb62.bindPopup(popup_93d83bcbb6a4fac70ee84b5e6de7d282)
+        ;
+
+        
+    
+    
+            var marker_757846eae2d37a5fa5e2967fb9e7d30d = L.marker(
+                [51.520741, -0.060078],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_f713091b897673bbb0b19f8646fb77de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5422b9377b83ae6d0d8b14fa99aec45d = $(`<div id="html_5422b9377b83ae6d0d8b14fa99aec45d" style="width: 100.0%; height: 100.0%;">Swanlea School, Oxbridge pct: 0.0, Russel pct: 45.0</div>`)[0];
+                popup_f713091b897673bbb0b19f8646fb77de.setContent(html_5422b9377b83ae6d0d8b14fa99aec45d);
+            
+        
+
+        marker_757846eae2d37a5fa5e2967fb9e7d30d.bindPopup(popup_f713091b897673bbb0b19f8646fb77de)
+        ;
+
+        
+    
+    
+            var marker_fd284e7c4f79dc4a3a198c5f85ac5913 = L.marker(
+                [50.476139, -3.55704],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_1fa6f37d9bb731c5918b16256e16a042 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05b69c8e6e38ecbdc10bfd36c943d9aa = $(`<div id="html_05b69c8e6e38ecbdc10bfd36c943d9aa" style="width: 100.0%; height: 100.0%;">Torquay Boys' Grammar School, Oxbridge pct: 3.0, Russel pct: 45.0</div>`)[0];
+                popup_1fa6f37d9bb731c5918b16256e16a042.setContent(html_05b69c8e6e38ecbdc10bfd36c943d9aa);
+            
+        
+
+        marker_fd284e7c4f79dc4a3a198c5f85ac5913.bindPopup(popup_1fa6f37d9bb731c5918b16256e16a042)
+        ;
+
+        
+    
+    
+            var marker_720f41497b816445e81e45e2819e459e = L.marker(
+                [51.372261, -2.360323],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_88ebf2c7325e54ad6d0f72a6430a7d94 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4827aab7af13995248dc71eb30f04fde = $(`<div id="html_4827aab7af13995248dc71eb30f04fde" style="width: 100.0%; height: 100.0%;">Beechen Cliff School, Oxbridge pct: 3.0, Russel pct: 45.0</div>`)[0];
+                popup_88ebf2c7325e54ad6d0f72a6430a7d94.setContent(html_4827aab7af13995248dc71eb30f04fde);
+            
+        
+
+        marker_720f41497b816445e81e45e2819e459e.bindPopup(popup_88ebf2c7325e54ad6d0f72a6430a7d94)
+        ;
+
+        
+    
+    
+            var marker_b2560487694dae4f1845b3b3999f76ae = L.marker(
+                [50.754443, -1.9803],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_c27041f7d09edd7890a1d3e7b1c03b39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cfca992f9d5f12d33bffae9d38a7f442 = $(`<div id="html_cfca992f9d5f12d33bffae9d38a7f442" style="width: 100.0%; height: 100.0%;">Poole Grammar School, Oxbridge pct: 4.0, Russel pct: 45.0</div>`)[0];
+                popup_c27041f7d09edd7890a1d3e7b1c03b39.setContent(html_cfca992f9d5f12d33bffae9d38a7f442);
+            
+        
+
+        marker_b2560487694dae4f1845b3b3999f76ae.bindPopup(popup_c27041f7d09edd7890a1d3e7b1c03b39)
+        ;
+
+        
+    
+    
+            var marker_459b2668500bfb7c0002c9dc578644e5 = L.marker(
+                [52.239216, -0.867553],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_d536cf1b51a814d3af9fc5d253f11952 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4f779767017dd7c0dbdf797f08043b6 = $(`<div id="html_a4f779767017dd7c0dbdf797f08043b6" style="width: 100.0%; height: 100.0%;">Northampton School for Boys, Oxbridge pct: 3.0, Russel pct: 45.0</div>`)[0];
+                popup_d536cf1b51a814d3af9fc5d253f11952.setContent(html_a4f779767017dd7c0dbdf797f08043b6);
+            
+        
+
+        marker_459b2668500bfb7c0002c9dc578644e5.bindPopup(popup_d536cf1b51a814d3af9fc5d253f11952)
+        ;
+
+        
+    
+    
+            var marker_45f7971c4b9d1678381a62a3be5cf65d = L.marker(
+                [54.659106, -2.757745],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_53c6763795ad16361858136c83622b64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_466576033f93fe86b438167a93fde1e8 = $(`<div id="html_466576033f93fe86b438167a93fde1e8" style="width: 100.0%; height: 100.0%;">Queen Elizabeth Grammar School Penrith, Oxbridge pct: 6.0, Russel pct: 45.0</div>`)[0];
+                popup_53c6763795ad16361858136c83622b64.setContent(html_466576033f93fe86b438167a93fde1e8);
+            
+        
+
+        marker_45f7971c4b9d1678381a62a3be5cf65d.bindPopup(popup_53c6763795ad16361858136c83622b64)
+        ;
+
+        
+    
+    
+            var marker_81a2d063808f37346b3a7f8efbd2f389 = L.marker(
+                [51.105352, -2.463181],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_add0b2d1258f2aadc2fcc19b70e41107 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ce499271a460de3f9b540ec63d8848b = $(`<div id="html_5ce499271a460de3f9b540ec63d8848b" style="width: 100.0%; height: 100.0%;">Sexey's School, Oxbridge pct: 0.0, Russel pct: 45.0</div>`)[0];
+                popup_add0b2d1258f2aadc2fcc19b70e41107.setContent(html_5ce499271a460de3f9b540ec63d8848b);
+            
+        
+
+        marker_81a2d063808f37346b3a7f8efbd2f389.bindPopup(popup_add0b2d1258f2aadc2fcc19b70e41107)
+        ;
+
+        
+    
+    
+            var marker_8ea092bf1523c491d64763dd7169470e = L.marker(
+                [52.503646, -1.885675],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_9c583ee058fd30aa01cb608bedb1bc29 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9c33485f35a9066c46dcded297451eb = $(`<div id="html_d9c33485f35a9066c46dcded297451eb" style="width: 100.0%; height: 100.0%;">King Edward VI Aston School, Oxbridge pct: 1.0, Russel pct: 45.0</div>`)[0];
+                popup_9c583ee058fd30aa01cb608bedb1bc29.setContent(html_d9c33485f35a9066c46dcded297451eb);
+            
+        
+
+        marker_8ea092bf1523c491d64763dd7169470e.bindPopup(popup_9c583ee058fd30aa01cb608bedb1bc29)
+        ;
+
+        
+    
+    
+            var marker_79e5fc18c1fd43401cecf42550a9145a = L.marker(
+                [53.533904, -1.637462],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_969da70ed3d3fa17096d5e31c713790f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_929c3dc2cf912e535e383270a65a723d = $(`<div id="html_929c3dc2cf912e535e383270a65a723d" style="width: 100.0%; height: 100.0%;">Penistone Grammar School, Oxbridge pct: 2.0, Russel pct: 45.0</div>`)[0];
+                popup_969da70ed3d3fa17096d5e31c713790f.setContent(html_929c3dc2cf912e535e383270a65a723d);
+            
+        
+
+        marker_79e5fc18c1fd43401cecf42550a9145a.bindPopup(popup_969da70ed3d3fa17096d5e31c713790f)
+        ;
+
+        
+    
+    
+            var marker_93147bb30bd993257b8e56826e89d829 = L.marker(
+                [50.750782, -1.85284],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_df860fb5d0f0086f142cbfb078308e3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8484ab57959c551f427a42d7ff183090 = $(`<div id="html_8484ab57959c551f427a42d7ff183090" style="width: 100.0%; height: 100.0%;">Bournemouth School for Girls, Oxbridge pct: 5.0, Russel pct: 45.0</div>`)[0];
+                popup_df860fb5d0f0086f142cbfb078308e3a.setContent(html_8484ab57959c551f427a42d7ff183090);
+            
+        
+
+        marker_93147bb30bd993257b8e56826e89d829.bindPopup(popup_df860fb5d0f0086f142cbfb078308e3a)
+        ;
+
+        
+    
+    
+            var marker_7bdc30c7aa3c444c670bf2ee56e9fcb5 = L.marker(
+                [52.420772, -1.935257],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_dc0b1a2d330cc3e90c45cb2e3ecacde3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da627b5600ebe8247e40f88756d76a75 = $(`<div id="html_da627b5600ebe8247e40f88756d76a75" style="width: 100.0%; height: 100.0%;">Kings Norton Girls' School, Oxbridge pct: 0.0, Russel pct: 44.0</div>`)[0];
+                popup_dc0b1a2d330cc3e90c45cb2e3ecacde3.setContent(html_da627b5600ebe8247e40f88756d76a75);
+            
+        
+
+        marker_7bdc30c7aa3c444c670bf2ee56e9fcb5.bindPopup(popup_dc0b1a2d330cc3e90c45cb2e3ecacde3)
+        ;
+
+        
+    
+    
+            var marker_2727799427c53f59e79dd9890302a928 = L.marker(
+                [51.872852, -2.236682],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_283b4a58afaece71d56fff9ccc0ffb1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ed54dd3d8c712537b1d380277f826c0 = $(`<div id="html_1ed54dd3d8c712537b1d380277f826c0" style="width: 100.0%; height: 100.0%;">Denmark Road High School, Oxbridge pct: 2.0, Russel pct: 44.0</div>`)[0];
+                popup_283b4a58afaece71d56fff9ccc0ffb1a.setContent(html_1ed54dd3d8c712537b1d380277f826c0);
+            
+        
+
+        marker_2727799427c53f59e79dd9890302a928.bindPopup(popup_283b4a58afaece71d56fff9ccc0ffb1a)
+        ;
+
+        
+    
+    
+            var marker_8657ef52d2744edc6df6c48c41448e49 = L.marker(
+                [53.378251, -3.185416],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_5959eaa77a83112762272f598c66d69b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c697dd601042f071c7066997b7b685f0 = $(`<div id="html_c697dd601042f071c7066997b7b685f0" style="width: 100.0%; height: 100.0%;">West Kirby Grammar School, Oxbridge pct: 1.0, Russel pct: 44.0</div>`)[0];
+                popup_5959eaa77a83112762272f598c66d69b.setContent(html_c697dd601042f071c7066997b7b685f0);
+            
+        
+
+        marker_8657ef52d2744edc6df6c48c41448e49.bindPopup(popup_5959eaa77a83112762272f598c66d69b)
+        ;
+
+        
+    
+    
+            var marker_da5c744c17d71d508c227be38cf1e7cc = L.marker(
+                [53.833073, -0.43992],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_55ae78ad148d953b008efa6981e92744 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1e9cd048e76f2b2e2e217b53fff675a = $(`<div id="html_c1e9cd048e76f2b2e2e217b53fff675a" style="width: 100.0%; height: 100.0%;">Beverley Grammar School, Oxbridge pct: 0.0, Russel pct: 44.0</div>`)[0];
+                popup_55ae78ad148d953b008efa6981e92744.setContent(html_c1e9cd048e76f2b2e2e217b53fff675a);
+            
+        
+
+        marker_da5c744c17d71d508c227be38cf1e7cc.bindPopup(popup_55ae78ad148d953b008efa6981e92744)
+        ;
+
+        
+    
+    
+            var marker_ef81f90da19c2169490e2fce90e21c40 = L.marker(
+                [51.755145, -0.299214],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_d5c66d42214de0249187e6c0aada5741 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9d5899d7e8210e3f4f18e05bd568ce7 = $(`<div id="html_f9d5899d7e8210e3f4f18e05bd568ce7" style="width: 100.0%; height: 100.0%;">Beaumont School, Oxbridge pct: 2.0, Russel pct: 44.0</div>`)[0];
+                popup_d5c66d42214de0249187e6c0aada5741.setContent(html_f9d5899d7e8210e3f4f18e05bd568ce7);
+            
+        
+
+        marker_ef81f90da19c2169490e2fce90e21c40.bindPopup(popup_d5c66d42214de0249187e6c0aada5741)
+        ;
+
+        
+    
+    
+            var marker_a1bdadde5327708d906ac7e58aa10dcb = L.marker(
+                [54.045829, -2.803029],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_802dc1556ce3a8e91673eb88dc71c39d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_22f27ae8c725adabb9ff655ea6975bb0 = $(`<div id="html_22f27ae8c725adabb9ff655ea6975bb0" style="width: 100.0%; height: 100.0%;">Lancaster Girls' Grammar School, Oxbridge pct: 5.0, Russel pct: 44.0</div>`)[0];
+                popup_802dc1556ce3a8e91673eb88dc71c39d.setContent(html_22f27ae8c725adabb9ff655ea6975bb0);
+            
+        
+
+        marker_a1bdadde5327708d906ac7e58aa10dcb.bindPopup(popup_802dc1556ce3a8e91673eb88dc71c39d)
+        ;
+
+        
+    
+    
+            var marker_d0fe23e8a966608dcff80c91ca63b52b = L.marker(
+                [54.978883, -1.675253],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_de44856fb7d65080d71288a42e6c8f84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d9cd33e1809a83513cd811c29be65cf = $(`<div id="html_3d9cd33e1809a83513cd811c29be65cf" style="width: 100.0%; height: 100.0%;">St Cuthbert's High School, Oxbridge pct: 1.0, Russel pct: 44.0</div>`)[0];
+                popup_de44856fb7d65080d71288a42e6c8f84.setContent(html_3d9cd33e1809a83513cd811c29be65cf);
+            
+        
+
+        marker_d0fe23e8a966608dcff80c91ca63b52b.bindPopup(popup_de44856fb7d65080d71288a42e6c8f84)
+        ;
+
+        
+    
+    
+            var marker_37d4cf4ae2f5d33fed74b2736187d731 = L.marker(
+                [53.348856, -3.014679],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_a0d407bef9d87c95c0192d6b6401eed5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3831d74e1d330554ec2a53470b7bd83b = $(`<div id="html_3831d74e1d330554ec2a53470b7bd83b" style="width: 100.0%; height: 100.0%;">Wirral Grammar School for Girls, Oxbridge pct: 3.0, Russel pct: 44.0</div>`)[0];
+                popup_a0d407bef9d87c95c0192d6b6401eed5.setContent(html_3831d74e1d330554ec2a53470b7bd83b);
+            
+        
+
+        marker_37d4cf4ae2f5d33fed74b2736187d731.bindPopup(popup_a0d407bef9d87c95c0192d6b6401eed5)
+        ;
+
+        
+    
+    
+            var marker_126a366c4754224a47e15bc8e18b3c61 = L.marker(
+                [51.774989, -1.26144],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_dc4d076797579ff750c92241ab3d66d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58c6d0938b2ec1756b69ce2b8cd698d0 = $(`<div id="html_58c6d0938b2ec1756b69ce2b8cd698d0" style="width: 100.0%; height: 100.0%;">The Cherwell School, Oxbridge pct: 5.0, Russel pct: 44.0</div>`)[0];
+                popup_dc4d076797579ff750c92241ab3d66d6.setContent(html_58c6d0938b2ec1756b69ce2b8cd698d0);
+            
+        
+
+        marker_126a366c4754224a47e15bc8e18b3c61.bindPopup(popup_dc4d076797579ff750c92241ab3d66d6)
+        ;
+
+        
+    
+    
+            var marker_0753eb9bfb6f34885cbad3afa41b46ff = L.marker(
+                [51.617091, -0.764546],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_8a22e52ab35e37a879fb5c1d721e4eff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_251863605350ce0fe1e9b434344c5938 = $(`<div id="html_251863605350ce0fe1e9b434344c5938" style="width: 100.0%; height: 100.0%;">John Hampden Grammar School, Oxbridge pct: 1.0, Russel pct: 44.0</div>`)[0];
+                popup_8a22e52ab35e37a879fb5c1d721e4eff.setContent(html_251863605350ce0fe1e9b434344c5938);
+            
+        
+
+        marker_0753eb9bfb6f34885cbad3afa41b46ff.bindPopup(popup_8a22e52ab35e37a879fb5c1d721e4eff)
+        ;
+
+        
+    
+    
+            var marker_5427a3311254df990059b7d58fd0af0c = L.marker(
+                [52.504747, -1.933351],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_d95ced9fdfe098ded4ccf8e7bc5527fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec0e084f4d311ca5f6164890904cb609 = $(`<div id="html_ec0e084f4d311ca5f6164890904cb609" style="width: 100.0%; height: 100.0%;">King Edward VI Handsworth Grammar School for Boys, Oxbridge pct: 2.0, Russel pct: 44.0</div>`)[0];
+                popup_d95ced9fdfe098ded4ccf8e7bc5527fe.setContent(html_ec0e084f4d311ca5f6164890904cb609);
+            
+        
+
+        marker_5427a3311254df990059b7d58fd0af0c.bindPopup(popup_d95ced9fdfe098ded4ccf8e7bc5527fe)
+        ;
+
+        
+    
+    
+            var marker_eb3f1fb90debd87fb9810ff07fab609d = L.marker(
+                [51.45025, 0.139767],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_c68696c266d962f5421e65825dd2d413 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39d75a1d441904fb54973ad0d20bd51a = $(`<div id="html_39d75a1d441904fb54973ad0d20bd51a" style="width: 100.0%; height: 100.0%;">Townley Grammar School, Oxbridge pct: 2.0, Russel pct: 44.0</div>`)[0];
+                popup_c68696c266d962f5421e65825dd2d413.setContent(html_39d75a1d441904fb54973ad0d20bd51a);
+            
+        
+
+        marker_eb3f1fb90debd87fb9810ff07fab609d.bindPopup(popup_c68696c266d962f5421e65825dd2d413)
+        ;
+
+        
+    
+    
+            var marker_2b07729a5fac1050d9c843d235374c0b = L.marker(
+                [53.367593, -3.163147],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_1743c8c3d48d45be6639c25d86473389 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6183400a18db262d308739362b386ff2 = $(`<div id="html_6183400a18db262d308739362b386ff2" style="width: 100.0%; height: 100.0%;">Calday Grange Grammar School, Oxbridge pct: 3.0, Russel pct: 44.0</div>`)[0];
+                popup_1743c8c3d48d45be6639c25d86473389.setContent(html_6183400a18db262d308739362b386ff2);
+            
+        
+
+        marker_2b07729a5fac1050d9c843d235374c0b.bindPopup(popup_1743c8c3d48d45be6639c25d86473389)
+        ;
+
+        
+    
+    
+            var marker_e8affa6d53d952682960116d0c23c783 = L.marker(
+                [51.58203, -0.132831],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_ba6a124d9e5c74080a75418c95e058fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12990d6d6139366419c3495f3063f3a4 = $(`<div id="html_12990d6d6139366419c3495f3063f3a4" style="width: 100.0%; height: 100.0%;">Highgate Wood Secondary School, Oxbridge pct: 2.0, Russel pct: 44.0</div>`)[0];
+                popup_ba6a124d9e5c74080a75418c95e058fc.setContent(html_12990d6d6139366419c3495f3063f3a4);
+            
+        
+
+        marker_e8affa6d53d952682960116d0c23c783.bindPopup(popup_ba6a124d9e5c74080a75418c95e058fc)
+        ;
+
+        
+    
+    
+            var marker_bd1c5ed64828b27de1268ae993a47b15 = L.marker(
+                [52.352711, -1.28768],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_664357e577a149bb3531257940846995 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63b449633a4017b7031af5772c1db46e = $(`<div id="html_63b449633a4017b7031af5772c1db46e" style="width: 100.0%; height: 100.0%;">Rugby High School, Oxbridge pct: 3.0, Russel pct: 43.0</div>`)[0];
+                popup_664357e577a149bb3531257940846995.setContent(html_63b449633a4017b7031af5772c1db46e);
+            
+        
+
+        marker_bd1c5ed64828b27de1268ae993a47b15.bindPopup(popup_664357e577a149bb3531257940846995)
+        ;
+
+        
+    
+    
+            var marker_806abf627f4cba4f429306cdb0af1984 = L.marker(
+                [51.753385, -0.564191],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_de7b0d13664c514249cf3a371c187a1b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2341e342d2a182f0e078c36562cd565 = $(`<div id="html_a2341e342d2a182f0e078c36562cd565" style="width: 100.0%; height: 100.0%;">Ashlyns School, Oxbridge pct: 4.0, Russel pct: 43.0</div>`)[0];
+                popup_de7b0d13664c514249cf3a371c187a1b.setContent(html_a2341e342d2a182f0e078c36562cd565);
+            
+        
+
+        marker_806abf627f4cba4f429306cdb0af1984.bindPopup(popup_de7b0d13664c514249cf3a371c187a1b)
+        ;
+
+        
+    
+    
+            var marker_1b3d32a6f4b78fc55035d000ff5a10ef = L.marker(
+                [54.982681, -1.657146],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_385ecc141c37a9865d35fd43bcbd6dcd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e560009ea55264271da434150008109 = $(`<div id="html_4e560009ea55264271da434150008109" style="width: 100.0%; height: 100.0%;">Sacred Heart Catholic High School, Oxbridge pct: 2.0, Russel pct: 43.0</div>`)[0];
+                popup_385ecc141c37a9865d35fd43bcbd6dcd.setContent(html_4e560009ea55264271da434150008109);
+            
+        
+
+        marker_1b3d32a6f4b78fc55035d000ff5a10ef.bindPopup(popup_385ecc141c37a9865d35fd43bcbd6dcd)
+        ;
+
+        
+    
+    
+            var marker_372c9905e6cd1c3caaa0622fdb9bc7d9 = L.marker(
+                [51.369328, -0.05291],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_6de1bd54371255073a7cc9a8b39dcade = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47221a0b2eb78d387495c1e256f21f11 = $(`<div id="html_47221a0b2eb78d387495c1e256f21f11" style="width: 100.0%; height: 100.0%;">Coloma Convent Girls' School, Oxbridge pct: 3.0, Russel pct: 43.0</div>`)[0];
+                popup_6de1bd54371255073a7cc9a8b39dcade.setContent(html_47221a0b2eb78d387495c1e256f21f11);
+            
+        
+
+        marker_372c9905e6cd1c3caaa0622fdb9bc7d9.bindPopup(popup_6de1bd54371255073a7cc9a8b39dcade)
+        ;
+
+        
+    
+    
+            var marker_ccb9330a3b1125c10d2cfa33a940e0fd = L.marker(
+                [53.647015, -1.793668],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_f91244dac90d6acb3c95aa62ab5789b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0077d00214f7281bb741eb876f0352a0 = $(`<div id="html_0077d00214f7281bb741eb876f0352a0" style="width: 100.0%; height: 100.0%;">Greenhead College, Oxbridge pct: 3.0, Russel pct: 43.0</div>`)[0];
+                popup_f91244dac90d6acb3c95aa62ab5789b4.setContent(html_0077d00214f7281bb741eb876f0352a0);
+            
+        
+
+        marker_ccb9330a3b1125c10d2cfa33a940e0fd.bindPopup(popup_f91244dac90d6acb3c95aa62ab5789b4)
+        ;
+
+        
+    
+    
+            var marker_25b450fe9cd5915b7212d7870b9286a1 = L.marker(
+                [51.551705, -0.071743],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_7683241b3015ea79562c6b3f28e5266f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c22cabfb8b03cb47dbaf9b755d3351ab = $(`<div id="html_c22cabfb8b03cb47dbaf9b755d3351ab" style="width: 100.0%; height: 100.0%;">The Petchey Academy, Oxbridge pct: 0.0, Russel pct: 43.0</div>`)[0];
+                popup_7683241b3015ea79562c6b3f28e5266f.setContent(html_c22cabfb8b03cb47dbaf9b755d3351ab);
+            
+        
+
+        marker_25b450fe9cd5915b7212d7870b9286a1.bindPopup(popup_7683241b3015ea79562c6b3f28e5266f)
+        ;
+
+        
+    
+    
+            var marker_0d20a1baf7a14ba08fe2ebe1b88ff255 = L.marker(
+                [51.537518, -0.348267],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_2a1bf7bda341fa8ccbdc3a8c92fabd86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71d43f18dc40afd9f5be9371c668cf04 = $(`<div id="html_71d43f18dc40afd9f5be9371c668cf04" style="width: 100.0%; height: 100.0%;">William Perkin Church of England High School, Oxbridge pct: 2.0, Russel pct: 43.0</div>`)[0];
+                popup_2a1bf7bda341fa8ccbdc3a8c92fabd86.setContent(html_71d43f18dc40afd9f5be9371c668cf04);
+            
+        
+
+        marker_0d20a1baf7a14ba08fe2ebe1b88ff255.bindPopup(popup_2a1bf7bda341fa8ccbdc3a8c92fabd86)
+        ;
+
+        
+    
+    
+            var marker_e80c65795c3637bddd6cc2b0c11abd6d = L.marker(
+                [51.566369, -0.341589],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_e35d49922b73fb13884c11c757a66682 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fec62f51d1c1c656adc69684b34c1b7e = $(`<div id="html_fec62f51d1c1c656adc69684b34c1b7e" style="width: 100.0%; height: 100.0%;">St Dominic's Sixth Form College, Oxbridge pct: 2.0, Russel pct: 43.0</div>`)[0];
+                popup_e35d49922b73fb13884c11c757a66682.setContent(html_fec62f51d1c1c656adc69684b34c1b7e);
+            
+        
+
+        marker_e80c65795c3637bddd6cc2b0c11abd6d.bindPopup(popup_e35d49922b73fb13884c11c757a66682)
+        ;
+
+        
+    
+    
+            var marker_4c3b3f45d4ac2eff212b5e71c64c8f64 = L.marker(
+                [51.096928, 0.538292],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_48040c61a0eb1d914f78c2327c796ae3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ecc696e53bee16389c8a6f51daf4115f = $(`<div id="html_ecc696e53bee16389c8a6f51daf4115f" style="width: 100.0%; height: 100.0%;">Cranbrook School, Oxbridge pct: 2.0, Russel pct: 43.0</div>`)[0];
+                popup_48040c61a0eb1d914f78c2327c796ae3.setContent(html_ecc696e53bee16389c8a6f51daf4115f);
+            
+        
+
+        marker_4c3b3f45d4ac2eff212b5e71c64c8f64.bindPopup(popup_48040c61a0eb1d914f78c2327c796ae3)
+        ;
+
+        
+    
+    
+            var marker_2a3169b6dad4b16df29be609881fa399 = L.marker(
+                [51.663536, -0.51407],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_1daa66dbcc59f63f66bca311030cc562 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bf998fc5f8d1d983a6365b8a9cf0569 = $(`<div id="html_5bf998fc5f8d1d983a6365b8a9cf0569" style="width: 100.0%; height: 100.0%;">St Clement Danes School, Oxbridge pct: 3.0, Russel pct: 43.0</div>`)[0];
+                popup_1daa66dbcc59f63f66bca311030cc562.setContent(html_5bf998fc5f8d1d983a6365b8a9cf0569);
+            
+        
+
+        marker_2a3169b6dad4b16df29be609881fa399.bindPopup(popup_1daa66dbcc59f63f66bca311030cc562)
+        ;
+
+        
+    
+    
+            var marker_b21c86a7955c460a13034c7ed1db8884 = L.marker(
+                [51.443553, -0.411155],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_92bbceaaf11ed4ca3a0b09b3787c8946 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76fe55d6d6660d1d589023c548008da8 = $(`<div id="html_76fe55d6d6660d1d589023c548008da8" style="width: 100.0%; height: 100.0%;">Reach Academy Feltham, Oxbridge pct: 3.0, Russel pct: 43.0</div>`)[0];
+                popup_92bbceaaf11ed4ca3a0b09b3787c8946.setContent(html_76fe55d6d6660d1d589023c548008da8);
+            
+        
+
+        marker_b21c86a7955c460a13034c7ed1db8884.bindPopup(popup_92bbceaaf11ed4ca3a0b09b3787c8946)
+        ;
+
+        
+    
+    
+            var marker_c999284dca16b3ac8fb81ec8e4246585 = L.marker(
+                [53.963347, -2.02277],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_64dabd1772ba13c7e57f0fc2befc4f17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8810445abfcdd2aba7e0fe04e5ad2056 = $(`<div id="html_8810445abfcdd2aba7e0fe04e5ad2056" style="width: 100.0%; height: 100.0%;">Ermysted's Grammar School, Oxbridge pct: 4.0, Russel pct: 43.0</div>`)[0];
+                popup_64dabd1772ba13c7e57f0fc2befc4f17.setContent(html_8810445abfcdd2aba7e0fe04e5ad2056);
+            
+        
+
+        marker_c999284dca16b3ac8fb81ec8e4246585.bindPopup(popup_64dabd1772ba13c7e57f0fc2befc4f17)
+        ;
+
+        
+    
+    
+            var marker_d5b58a2f8c482a0659e6097d042c8fdf = L.marker(
+                [53.443692, -2.298265],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_d390b863027150df60b82614178f7113 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f58efa4a9961c6cef7578804723a0a3 = $(`<div id="html_4f58efa4a9961c6cef7578804723a0a3" style="width: 100.0%; height: 100.0%;">Stretford Grammar School, Oxbridge pct: 2.0, Russel pct: 43.0</div>`)[0];
+                popup_d390b863027150df60b82614178f7113.setContent(html_4f58efa4a9961c6cef7578804723a0a3);
+            
+        
+
+        marker_d5b58a2f8c482a0659e6097d042c8fdf.bindPopup(popup_d390b863027150df60b82614178f7113)
+        ;
+
+        
+    
+    
+            var marker_18b895fe5d43a7d19326c87cc026634d = L.marker(
+                [54.467487, -1.182892],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_bbae4fcb291c0484ba3f4f7915955370 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bcd22358af909a6acd0c908d44403bf2 = $(`<div id="html_bcd22358af909a6acd0c908d44403bf2" style="width: 100.0%; height: 100.0%;">Stokesley School, Oxbridge pct: 0.0, Russel pct: 43.0</div>`)[0];
+                popup_bbae4fcb291c0484ba3f4f7915955370.setContent(html_bcd22358af909a6acd0c908d44403bf2);
+            
+        
+
+        marker_18b895fe5d43a7d19326c87cc026634d.bindPopup(popup_bbae4fcb291c0484ba3f4f7915955370)
+        ;
+
+        
+    
+    
+            var marker_e8a38811e2c52ced17558f80250c2dc8 = L.marker(
+                [51.521282, -0.169274],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_bbc81f58e83b988bc922f0be733800ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e61e6e1ffdc3df8f9ca5be8702b38edd = $(`<div id="html_e61e6e1ffdc3df8f9ca5be8702b38edd" style="width: 100.0%; height: 100.0%;">Ark King Solomon Academy, Oxbridge pct: 2.0, Russel pct: 43.0</div>`)[0];
+                popup_bbc81f58e83b988bc922f0be733800ce.setContent(html_e61e6e1ffdc3df8f9ca5be8702b38edd);
+            
+        
+
+        marker_e8a38811e2c52ced17558f80250c2dc8.bindPopup(popup_bbc81f58e83b988bc922f0be733800ce)
+        ;
+
+        
+    
+    
+            var marker_20573fc52e36e3e9e4c661f0da93b696 = L.marker(
+                [53.952356, -1.041082],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_3356df841dd405dfb96be9379013084e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0974eb19c856b40d9dab3c7bfe0cbab = $(`<div id="html_d0974eb19c856b40d9dab3c7bfe0cbab" style="width: 100.0%; height: 100.0%;">Archbishop Holgate's School, A Church of England Academy, Oxbridge pct: 4.0, Russel pct: 42.0</div>`)[0];
+                popup_3356df841dd405dfb96be9379013084e.setContent(html_d0974eb19c856b40d9dab3c7bfe0cbab);
+            
+        
+
+        marker_20573fc52e36e3e9e4c661f0da93b696.bindPopup(popup_3356df841dd405dfb96be9379013084e)
+        ;
+
+        
+    
+    
+            var marker_9696f08131ac7c700547630868f5da32 = L.marker(
+                [51.65182, -0.196679],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_8fdd516fae9a0bbcb4a1b24ccb66a7c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60300265f7ca7152d73d5151737ff6d1 = $(`<div id="html_60300265f7ca7152d73d5151737ff6d1" style="width: 100.0%; height: 100.0%;">Queen Elizabeth's Girls' School, Oxbridge pct: 0.0, Russel pct: 42.0</div>`)[0];
+                popup_8fdd516fae9a0bbcb4a1b24ccb66a7c0.setContent(html_60300265f7ca7152d73d5151737ff6d1);
+            
+        
+
+        marker_9696f08131ac7c700547630868f5da32.bindPopup(popup_8fdd516fae9a0bbcb4a1b24ccb66a7c0)
+        ;
+
+        
+    
+    
+            var marker_4656610e0d3ed965730cfb1e5ebf3d0e = L.marker(
+                [51.458755, -0.288179],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_06691764bcae39f79df22f5d40a47c92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18249afbe2f2c6354be1426903eea0bb = $(`<div id="html_18249afbe2f2c6354be1426903eea0bb" style="width: 100.0%; height: 100.0%;">Christ's Church of England Comprehensive Secondary School, Oxbridge pct: 1.0, Russel pct: 42.0</div>`)[0];
+                popup_06691764bcae39f79df22f5d40a47c92.setContent(html_18249afbe2f2c6354be1426903eea0bb);
+            
+        
+
+        marker_4656610e0d3ed965730cfb1e5ebf3d0e.bindPopup(popup_06691764bcae39f79df22f5d40a47c92)
+        ;
+
+        
+    
+    
+            var marker_ddd6f83750c65173d9e3cbb5243b14bb = L.marker(
+                [51.74305, -1.303993],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_3a27441d36c5c11d85c3ec1b75d4c0b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_831901e4f3ad8800c758fe515592fab3 = $(`<div id="html_831901e4f3ad8800c758fe515592fab3" style="width: 100.0%; height: 100.0%;">Matthew Arnold School, Oxbridge pct: 5.0, Russel pct: 42.0</div>`)[0];
+                popup_3a27441d36c5c11d85c3ec1b75d4c0b3.setContent(html_831901e4f3ad8800c758fe515592fab3);
+            
+        
+
+        marker_ddd6f83750c65173d9e3cbb5243b14bb.bindPopup(popup_3a27441d36c5c11d85c3ec1b75d4c0b3)
+        ;
+
+        
+    
+    
+            var marker_a0952fa417ad04a5bdc93f6ab71d3a55 = L.marker(
+                [50.396011, -3.55862],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_a2d660e0c086e85248e2f2969b89e237 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86d16a059d26a51d5a6c2f2777cf3682 = $(`<div id="html_86d16a059d26a51d5a6c2f2777cf3682" style="width: 100.0%; height: 100.0%;">Churston Ferrers Grammar School Academy, Oxbridge pct: 1.0, Russel pct: 42.0</div>`)[0];
+                popup_a2d660e0c086e85248e2f2969b89e237.setContent(html_86d16a059d26a51d5a6c2f2777cf3682);
+            
+        
+
+        marker_a0952fa417ad04a5bdc93f6ab71d3a55.bindPopup(popup_a2d660e0c086e85248e2f2969b89e237)
+        ;
+
+        
+    
+    
+            var marker_34e9ed8d3be12f59eba067ca9ae7a689 = L.marker(
+                [52.913374, -0.633698],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_b52a440f40b1c3af0af3c3353df90501 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f854073a9b20859f1f24ff2d2c153279 = $(`<div id="html_f854073a9b20859f1f24ff2d2c153279" style="width: 100.0%; height: 100.0%;">Kesteven and Grantham Girls' School, Oxbridge pct: 2.0, Russel pct: 42.0</div>`)[0];
+                popup_b52a440f40b1c3af0af3c3353df90501.setContent(html_f854073a9b20859f1f24ff2d2c153279);
+            
+        
+
+        marker_34e9ed8d3be12f59eba067ca9ae7a689.bindPopup(popup_b52a440f40b1c3af0af3c3353df90501)
+        ;
+
+        
+    
+    
+            var marker_7b64223ee89b25cf9524d092fd2bbcaf = L.marker(
+                [51.591865, -0.060113],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_4fd4be3d3441fb890ebc8c6f5516b7be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09d793290d37981d38377368d1c3f407 = $(`<div id="html_09d793290d37981d38377368d1c3f407" style="width: 100.0%; height: 100.0%;">Harris Academy Tottenham, Oxbridge pct: 0.0, Russel pct: 42.0</div>`)[0];
+                popup_4fd4be3d3441fb890ebc8c6f5516b7be.setContent(html_09d793290d37981d38377368d1c3f407);
+            
+        
+
+        marker_7b64223ee89b25cf9524d092fd2bbcaf.bindPopup(popup_4fd4be3d3441fb890ebc8c6f5516b7be)
+        ;
+
+        
+    
+    
+            var marker_2ebceba42d1981aeb04a5a8facb52a36 = L.marker(
+                [55.006127, -1.593765],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_bb0c9cb93e268fb4e28d8f3defa27f9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72b9e00b3af9a6041e9e816c1400df1b = $(`<div id="html_72b9e00b3af9a6041e9e816c1400df1b" style="width: 100.0%; height: 100.0%;">St Mary's Catholic School, Oxbridge pct: 4.0, Russel pct: 42.0</div>`)[0];
+                popup_bb0c9cb93e268fb4e28d8f3defa27f9d.setContent(html_72b9e00b3af9a6041e9e816c1400df1b);
+            
+        
+
+        marker_2ebceba42d1981aeb04a5a8facb52a36.bindPopup(popup_bb0c9cb93e268fb4e28d8f3defa27f9d)
+        ;
+
+        
+    
+    
+            var marker_f4a7879cdfd1711e59cb2fac54e4d73f = L.marker(
+                [51.62775, -0.246335],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_359af335e5f0188b91a7efbaee746e1d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_452912b660548945baad9d783607636c = $(`<div id="html_452912b660548945baad9d783607636c" style="width: 100.0%; height: 100.0%;">Mill Hill County High School, Oxbridge pct: 3.0, Russel pct: 42.0</div>`)[0];
+                popup_359af335e5f0188b91a7efbaee746e1d.setContent(html_452912b660548945baad9d783607636c);
+            
+        
+
+        marker_f4a7879cdfd1711e59cb2fac54e4d73f.bindPopup(popup_359af335e5f0188b91a7efbaee746e1d)
+        ;
+
+        
+    
+    
+            var marker_f979aa6f308d9abccdf26b31df43e5f5 = L.marker(
+                [51.631591, -2.364153],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_fca81fe1fa3f18819b16464c5187b35d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f02796c6040d709c1e430241cc3ddbb = $(`<div id="html_0f02796c6040d709c1e430241cc3ddbb" style="width: 100.0%; height: 100.0%;">Katharine Lady Berkeley's School, Oxbridge pct: 3.0, Russel pct: 41.0</div>`)[0];
+                popup_fca81fe1fa3f18819b16464c5187b35d.setContent(html_0f02796c6040d709c1e430241cc3ddbb);
+            
+        
+
+        marker_f979aa6f308d9abccdf26b31df43e5f5.bindPopup(popup_fca81fe1fa3f18819b16464c5187b35d)
+        ;
+
+        
+    
+    
+            var marker_a22b3e3fa600a2f71e6f1b27f6015f7a = L.marker(
+                [51.822667, -0.345964],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_d855ebfdf049de51aba96c02a2c619af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee081c39a8a5cd78cebf5764c8493110 = $(`<div id="html_ee081c39a8a5cd78cebf5764c8493110" style="width: 100.0%; height: 100.0%;">Sir John Lawes School, Oxbridge pct: 2.0, Russel pct: 41.0</div>`)[0];
+                popup_d855ebfdf049de51aba96c02a2c619af.setContent(html_ee081c39a8a5cd78cebf5764c8493110);
+            
+        
+
+        marker_a22b3e3fa600a2f71e6f1b27f6015f7a.bindPopup(popup_d855ebfdf049de51aba96c02a2c619af)
+        ;
+
+        
+    
+    
+            var marker_0051154e285f3cc7833edca513d2940a = L.marker(
+                [51.792422, -1.471066],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_dc9a85f4ec75c9ea36275c2409be9d08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f9ed36ca31dbc23ecdea90f90de118f = $(`<div id="html_0f9ed36ca31dbc23ecdea90f90de118f" style="width: 100.0%; height: 100.0%;">Wood Green School, Oxbridge pct: 5.0, Russel pct: 41.0</div>`)[0];
+                popup_dc9a85f4ec75c9ea36275c2409be9d08.setContent(html_0f9ed36ca31dbc23ecdea90f90de118f);
+            
+        
+
+        marker_0051154e285f3cc7833edca513d2940a.bindPopup(popup_dc9a85f4ec75c9ea36275c2409be9d08)
+        ;
+
+        
+    
+    
+            var marker_7a12aa8c19ded29d9751ebf5af48d343 = L.marker(
+                [50.862238, -2.171448],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_ff476895f7d1bc3201f1ecf73d8cf214 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cbec1aa3e6b1a6a2d375b0b577ae9935 = $(`<div id="html_cbec1aa3e6b1a6a2d375b0b577ae9935" style="width: 100.0%; height: 100.0%;">The Blandford School, Oxbridge pct: 0.0, Russel pct: 41.0</div>`)[0];
+                popup_ff476895f7d1bc3201f1ecf73d8cf214.setContent(html_cbec1aa3e6b1a6a2d375b0b577ae9935);
+            
+        
+
+        marker_7a12aa8c19ded29d9751ebf5af48d343.bindPopup(popup_ff476895f7d1bc3201f1ecf73d8cf214)
+        ;
+
+        
+    
+    
+            var marker_d74ec21e7a82a9afc97810fc9e2d5cb6 = L.marker(
+                [50.745874, -1.986823],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_1d15f620885a5d028f617db8207c9a63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f06ce75be4975f12f0f97df6ee6e41e7 = $(`<div id="html_f06ce75be4975f12f0f97df6ee6e41e7" style="width: 100.0%; height: 100.0%;">Parkstone Grammar School, Oxbridge pct: 1.0, Russel pct: 41.0</div>`)[0];
+                popup_1d15f620885a5d028f617db8207c9a63.setContent(html_f06ce75be4975f12f0f97df6ee6e41e7);
+            
+        
+
+        marker_d74ec21e7a82a9afc97810fc9e2d5cb6.bindPopup(popup_1d15f620885a5d028f617db8207c9a63)
+        ;
+
+        
+    
+    
+            var marker_e9ddb062feab035c42fb6a826ee1f4cc = L.marker(
+                [50.374031, -4.1617],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_efb1c3471f0777b21e3e74f38a27fce2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_baf819d3f9ee5d95dbb2d05e080586b6 = $(`<div id="html_baf819d3f9ee5d95dbb2d05e080586b6" style="width: 100.0%; height: 100.0%;">Devonport High School for Boys, Oxbridge pct: 2.0, Russel pct: 41.0</div>`)[0];
+                popup_efb1c3471f0777b21e3e74f38a27fce2.setContent(html_baf819d3f9ee5d95dbb2d05e080586b6);
+            
+        
+
+        marker_e9ddb062feab035c42fb6a826ee1f4cc.bindPopup(popup_efb1c3471f0777b21e3e74f38a27fce2)
+        ;
+
+        
+    
+    
+            var marker_b3b02cd7a1de0632f669511e68810de3 = L.marker(
+                [51.540505, -0.218575],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_095581afc166c27d221b44bb932864eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57ecb4d16b12e27f0b383aed4d9406e8 = $(`<div id="html_57ecb4d16b12e27f0b383aed4d9406e8" style="width: 100.0%; height: 100.0%;">Queens Park Community School, Oxbridge pct: 2.0, Russel pct: 41.0</div>`)[0];
+                popup_095581afc166c27d221b44bb932864eb.setContent(html_57ecb4d16b12e27f0b383aed4d9406e8);
+            
+        
+
+        marker_b3b02cd7a1de0632f669511e68810de3.bindPopup(popup_095581afc166c27d221b44bb932864eb)
+        ;
+
+        
+    
+    
+            var marker_1833c85e9b566e15d33496be28fb4b69 = L.marker(
+                [51.450992, -0.319067],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_d63485a7d08e99301ad9755172c4b227 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd0338c0f4fdaab6d8c8b3ab736eeba9 = $(`<div id="html_fd0338c0f4fdaab6d8c8b3ab736eeba9" style="width: 100.0%; height: 100.0%;">Orleans Park School, Oxbridge pct: 2.0, Russel pct: 41.0</div>`)[0];
+                popup_d63485a7d08e99301ad9755172c4b227.setContent(html_fd0338c0f4fdaab6d8c8b3ab736eeba9);
+            
+        
+
+        marker_1833c85e9b566e15d33496be28fb4b69.bindPopup(popup_d63485a7d08e99301ad9755172c4b227)
+        ;
+
+        
+    
+    
+            var marker_1cc11553a219aca178ed74e85bf69c74 = L.marker(
+                [51.416602, -0.842436],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_ecb1d9363b49ead57684dd6b0c07743a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c870ecf8f98fe00da0e792f16684a0a = $(`<div id="html_1c870ecf8f98fe00da0e792f16684a0a" style="width: 100.0%; height: 100.0%;">The Holt School, Oxbridge pct: 1.0, Russel pct: 41.0</div>`)[0];
+                popup_ecb1d9363b49ead57684dd6b0c07743a.setContent(html_1c870ecf8f98fe00da0e792f16684a0a);
+            
+        
+
+        marker_1cc11553a219aca178ed74e85bf69c74.bindPopup(popup_ecb1d9363b49ead57684dd6b0c07743a)
+        ;
+
+        
+    
+    
+            var marker_a1a7938916c6c276b47aa1a08847470e = L.marker(
+                [51.542521, 0.090126],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_9516e7fce9af90c406bb5bcced54da65 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3077c93e46b8bdd08b815fb7d5af9f26 = $(`<div id="html_3077c93e46b8bdd08b815fb7d5af9f26" style="width: 100.0%; height: 100.0%;">Eastbury Community School, Oxbridge pct: 5.0, Russel pct: 41.0</div>`)[0];
+                popup_9516e7fce9af90c406bb5bcced54da65.setContent(html_3077c93e46b8bdd08b815fb7d5af9f26);
+            
+        
+
+        marker_a1a7938916c6c276b47aa1a08847470e.bindPopup(popup_9516e7fce9af90c406bb5bcced54da65)
+        ;
+
+        
+    
+    
+            var marker_26a1ee113ce9cf47f017372404767f1e = L.marker(
+                [51.150861, 0.261088],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_306106766f6dbd8b34d35dfd54a73ff9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0ed54becca2d9acfd3cea3ab3092526 = $(`<div id="html_a0ed54becca2d9acfd3cea3ab3092526" style="width: 100.0%; height: 100.0%;">Tunbridge Wells Grammar School for Boys, Oxbridge pct: 4.0, Russel pct: 41.0</div>`)[0];
+                popup_306106766f6dbd8b34d35dfd54a73ff9.setContent(html_a0ed54becca2d9acfd3cea3ab3092526);
+            
+        
+
+        marker_26a1ee113ce9cf47f017372404767f1e.bindPopup(popup_306106766f6dbd8b34d35dfd54a73ff9)
+        ;
+
+        
+    
+    
+            var marker_0ce7fb58c9cd9cb1e383df70c0445fe8 = L.marker(
+                [51.432231, -0.084978],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_def0028cb024c24f072fe394451a9148 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_319fce6b6a9c3b00d5538ee33ade92ef = $(`<div id="html_319fce6b6a9c3b00d5538ee33ade92ef" style="width: 100.0%; height: 100.0%;">Kingsdale Foundation School, Oxbridge pct: 1.0, Russel pct: 41.0</div>`)[0];
+                popup_def0028cb024c24f072fe394451a9148.setContent(html_319fce6b6a9c3b00d5538ee33ade92ef);
+            
+        
+
+        marker_0ce7fb58c9cd9cb1e383df70c0445fe8.bindPopup(popup_def0028cb024c24f072fe394451a9148)
+        ;
+
+        
+    
+    
+            var marker_70fc2e4a0a2475c7df132e4c42e285be = L.marker(
+                [52.475498, -1.941036],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_9ef0311dae221ccd87db153ffeb82c83 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5ed18b8b91bbef3ae14cda7074b11da = $(`<div id="html_c5ed18b8b91bbef3ae14cda7074b11da" style="width: 100.0%; height: 100.0%;">St Paul's School for Girls, Oxbridge pct: 4.0, Russel pct: 41.0</div>`)[0];
+                popup_9ef0311dae221ccd87db153ffeb82c83.setContent(html_c5ed18b8b91bbef3ae14cda7074b11da);
+            
+        
+
+        marker_70fc2e4a0a2475c7df132e4c42e285be.bindPopup(popup_9ef0311dae221ccd87db153ffeb82c83)
+        ;
+
+        
+    
+    
+            var marker_3cf0210a67c52e3e4e8830bc956f30ed = L.marker(
+                [51.41025, -0.263145],
+                {}
+            ).addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+        var popup_ab8bb41c29c7a5fe82477388dae8a825 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e090f79ef14854a929c58f77152deb8 = $(`<div id="html_8e090f79ef14854a929c58f77152deb8" style="width: 100.0%; height: 100.0%;">Coombe Girls' School, Oxbridge pct: 3.0, Russel pct: 41.0</div>`)[0];
+                popup_ab8bb41c29c7a5fe82477388dae8a825.setContent(html_8e090f79ef14854a929c58f77152deb8);
+            
+        
+
+        marker_3cf0210a67c52e3e4e8830bc956f30ed.bindPopup(popup_ab8bb41c29c7a5fe82477388dae8a825)
+        ;
+
+        
+    
+    
+            tile_layer_02f67fc4f7a87f3af8203e0c27d6d22f.addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+    
+            tile_layer_02f67fc4f7a87f3af8203e0c27d6d22f.addTo(map_afa1a0bfe84a5f5249747afb7dc5ec1b);
+        
+</script>
+</html>
